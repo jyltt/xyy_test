@@ -1,4 +1,5 @@
 #include "CardDlg.h"
+#include "CardInfo\head.h"
 
 CardDlg *CardDlg::create(void )
 {

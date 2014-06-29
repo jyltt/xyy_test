@@ -1,45 +1,45 @@
 #include "Card.h"
 
-Card::Card():mID(-1)
+Card::Card():m_ID(-1)
 {
 }
 
 CardHand::CardHand()
 {
-	mSkillList[0] = -1;
-	mSkillList[1] = -1;
+	m_SkillList[0] = -1;
+	m_SkillList[1] = -1;
 }
 
 int CardHand::getSkill(int skill_num)
 {
 	if(skill_num < 2)
-		return mSkillList[skill_num];
+		return m_SkillList[skill_num];
 	else 
 		return -1;
 }
 
 void CardHand::setSkill(int skill_id)
 {
-	if(mSkillList[0] < 0)
-		mSkillList[0] = skill_id;
+	if(m_SkillList[0] < 0)
+		m_SkillList[0] = skill_id;
 	else
-		mSkillList[1] = skill_id;
+		m_SkillList[1] = skill_id;
 }
 
 CardMonster::CardMonster()
 {
-	for(auto i: mSkillList)
+	for(auto i: m_SkillList)
 		i = -1;
 }
 
 int CardMonster::getSkill(CONDITION condition)
 {
-	return mSkillList[(int)condition];
+	return m_SkillList[(int)condition];
 }
 
 void CardMonster::setSkill(CONDITION condition,int skill_id)
 {
-	mSkillList[(int)condition] = skill_id;
+	m_SkillList[(int)condition] = skill_id;
 }
 
 CardNpc::CardNpc()
@@ -48,24 +48,24 @@ CardNpc::CardNpc()
 
 void CardNpc::setAdore(int adore_id)
 {
-	mAdore.push_back(adore_id);
+	m_Adore.push_back(adore_id);
 }
 
 std::vector<int> &CardNpc::getAdore()
 {
-	return mAdore;
+	return m_Adore;
 }
 
 void CardNpc::setSkill(int skill_id)
 {
-	mSkillList.push_back(skill_id);
+	m_SkillList.push_back(skill_id);
 }
 
 int CardNpc::getSkill(int skill_num)
 {
-	return mSkillList[skill_num];
+	return m_SkillList[skill_num];
 }
 
-CardEvent::CardEvent():mSkillId(-1)
+CardEvent::CardEvent():m_SkillId(-1)
 {
 }

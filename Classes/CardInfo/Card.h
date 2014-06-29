@@ -25,7 +25,7 @@ public:
 	void setSkill(int skill_id);
 	int getSkill(int skill_nom);  //more than 2(barring 2) return -1
 protected:
-	int mSkillList[2];
+	int m_SkillList[2];
 };
 
 class CardMonster:
@@ -41,7 +41,7 @@ public:
 	void setSkill(CONDITION condition,int skill_id);
 	int getSkill(CONDITION condition);
 protected:
-	int mSkillList[4];
+	int m_SkillList[4];
 };
 
 class CardNpc:
@@ -58,8 +58,8 @@ public:
 	void setSkill(int skill_id);
 	int getSkill(int skill_nom); // error return -1;
 protected:
-	std::vector<int> mAdore;
-	std::vector<int> mSkillList;
+	std::vector<int> m_Adore;
+	std::vector<int> m_SkillList;
 };
 
 class CardEvent:

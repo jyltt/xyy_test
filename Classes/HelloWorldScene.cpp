@@ -1,4 +1,5 @@
 #include "HelloWorldScene.h"
+#include "GameScene.h"
 
 USING_NS_CC;
 
@@ -20,7 +21,9 @@ Scene* HelloWorld::createScene()
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
 {
-    
+	auto start = cocos2d::MenuItemFont::create("start", CC_CALLBACK_1(HelloWorld::menuStartCallback,this));
+	auto menu = cocos2d::Menu::create(start, nullptr);
+	addChild(menu);
     return true;
 }
 
@@ -37,4 +40,10 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     exit(0);
 #endif
+}
+
+void HelloWorld::menuStartCallback(cocos2d::Ref* pSender)
+{
+	auto scene = GameScene::createScene();
+	Director::getInstance()->pushScene(scene);
 }

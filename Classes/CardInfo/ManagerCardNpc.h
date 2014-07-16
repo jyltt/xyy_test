@@ -14,7 +14,7 @@ class CardNpcManager:
 {
 	Singleton(CardNpcManager);
 public:
-	CardNpc *findNpc(int npcid);
+	CardNpc *findCard(int npcid);
 protected:
 	virtual void setParam(TiXmlNode *value)override;
 	std::map<int , Card*> mNpcList;

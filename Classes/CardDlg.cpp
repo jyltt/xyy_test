@@ -1,7 +1,8 @@
 #include "CardDlg.h"
 #include "CardInfo\Card.h"
 
-CardDlg::CardDlg()
+CardDlg::CardDlg() 
+	:m_nMoveHeight(20)
 {
 
 }
@@ -11,7 +12,7 @@ CardDlg::~CardDlg()
 
 }
 
-CardDlg *CardDlg::create(Card *card, std::string &picBackPath)
+CardDlg *CardDlg::create(Card *card,const std::string &picBackPath)
 {
 	auto dlg = new CardDlg();
 	if (dlg && dlg->init())
@@ -33,7 +34,7 @@ bool CardDlg::init()
 	return true;
 }
 
-void CardDlg::exInit( Card *card, std::string &picBackPath)
+void CardDlg::exInit( Card *card,const  std::string &picBackPath)
 {
 	m_spCard = cocos2d::Sprite::create(card->getPicturePath());
 	addChild(m_spCard);
@@ -58,4 +59,10 @@ void CardDlg::setShow(bool show)
 {
 	m_spCardBk->setVisible(!show);
 	m_spCard->setVisible(show);
+}
+
+void CardDlg::setSelect(bool select)
+{
+	m_spCard->setPositionY(m_spCard->getPositionX() + m_nMoveHeight);
+	m_spCardBk->setPositionX(m_spCardBk->getPositionX() + m_nMoveHeight);
 }

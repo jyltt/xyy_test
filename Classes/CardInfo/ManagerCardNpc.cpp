@@ -69,9 +69,15 @@ void CardNpcManager::setParam(TiXmlNode *value)
 	mNpcList[card->getID()] = card;
 }
 
-CardNpc *CardNpcManager::findNpc(int npcid)
+CardNpc *CardNpcManager::findCard(int npcid)
 {
-	return (CardNpc*)mNpcList[npcid];
+	auto card = mNpcList.find(npcid);
+	if (card == mNpcList.end())
+	{
+		return nullptr;
+	}
+	else
+		return (CardNpc*)card->second;
 }
 
 CardNpcManager::~CardNpcManager()

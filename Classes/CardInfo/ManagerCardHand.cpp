@@ -48,6 +48,15 @@ void HandCardManager::setParam(TiXmlNode *value)
 	mHandCard[card->getID()] = card;
 }
 
+CardHand *HandCardManager::findCard(int cardId)
+{
+	auto card = mHandCard.find(cardId);
+	if (card == mHandCard.end())
+		return nullptr;
+	else
+		return card->second;
+}
+
 HandCardManager::~HandCardManager()
 {
 

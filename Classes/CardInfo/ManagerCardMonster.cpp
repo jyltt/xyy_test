@@ -59,9 +59,13 @@ void CardMonsterManager::setParam(TiXmlNode *value)
 	mMonsterList[card->getID()] = card;
 }
 
-CardMonster *CardMonsterManager::findMonster(int monsterid)
+CardMonster *CardMonsterManager::findCard(int monsterid)
 {
-	return (CardMonster*)mMonsterList[monsterid];
+	auto card = mMonsterList.find(monsterid);
+	if (card == mMonsterList.end())
+		return nullptr;
+	else
+		return (CardMonster*)card->second;
 }
 
 CardMonsterManager::~CardMonsterManager()

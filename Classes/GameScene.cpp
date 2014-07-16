@@ -5,7 +5,9 @@
 #include "CardInfo/ManagerCardNpc.h"
 #include "CardInfo/ManagerSkill.h"
 
-#include "CardDlg.h"
+#include "CardListDlg.h"
+
+#include "CardInfo/Card.h"
 
 cocos2d::Scene *GameScene::createScene()
 {
@@ -17,6 +19,16 @@ cocos2d::Scene *GameScene::createScene()
 
 bool GameScene::init()
 {
+	auto cardinfo = new Card();
+	cardinfo->setPicturePath("Equip_Card/caihuan.jpg");
+	auto cardlist = CardListDlg::create(CardListDlg::Model::single);
+	cardlist->addCard(cardinfo);
+	addChild(cardlist);
 
+	auto cardinfo2 = new Card();
+	cardinfo2->setPicturePath("Equip_Card/caihuan.jpg");
+	cardlist->addCard(cardinfo2);
+
+	cardlist->setVisible(true);
 	return true;
 }

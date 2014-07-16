@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#define CARDBKPATH  "Equip_Card/caihuan.jpg"
+
 #define SET_GET_FUNC(__type__,__name__,__func__) protected:__type__ m_##__name__;\
 											public:const __type__ &get##__func__()const {return m_##__name__;}\
 											public:void set##__func__(const __type__ &var){m_##__name__ = var;}

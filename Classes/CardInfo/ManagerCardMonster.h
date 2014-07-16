@@ -14,7 +14,7 @@ class CardMonsterManager:
 {
 	Singleton(CardMonsterManager);
 public:
-	CardMonster *findMonster(int monsterid);
+	CardMonster *findCard(int monsterid);
 protected:
 	virtual void setParam(TiXmlNode *value)override;
 	std::map<int , Card*> mMonsterList;

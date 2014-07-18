@@ -1,10 +1,11 @@
 #include "Card.h"
 
-Card::Card():m_ID(-1)
+Card::Card(CARDTYPE type) :m_ID(-1), m_CardTpye(type)
 {
 }
 
-CardHand::CardHand()
+CardHand::CardHand():
+Card(Card::CARDTYPE::Hand)
 {
 	m_SkillList[0] = -1;
 	m_SkillList[1] = -1;
@@ -27,6 +28,7 @@ void CardHand::setSkill(int skill_id)
 }
 
 CardMonster::CardMonster()
+	:Card(Card::CARDTYPE::Monster)
 {
 	for(auto i: m_SkillList)
 		i = -1;
@@ -43,6 +45,7 @@ void CardMonster::setSkill(CONDITION condition,int skill_id)
 }
 
 CardNpc::CardNpc()
+	:Card(Card::CARDTYPE::Npc)
 {
 }
 
@@ -66,6 +69,6 @@ int CardNpc::getSkill(int skill_num)
 	return m_SkillList[skill_num];
 }
 
-CardEvent::CardEvent():m_SkillId(-1)
+CardEvent::CardEvent() :m_SkillId(-1), Card(Card::CARDTYPE::Event)
 {
 }

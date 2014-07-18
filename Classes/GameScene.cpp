@@ -19,14 +19,16 @@ cocos2d::Scene *GameScene::createScene()
 
 bool GameScene::init()
 {
-	auto cardinfo = new Card();
+	auto cardinfo = new Card(Card::CARDTYPE::Hand);
 	cardinfo->setPicturePath("Equip_Card/caihuan.jpg");
+	cardinfo->setID(2);
 	auto cardlist = CardListDlg::create(CardListDlg::Model::single);
 	cardlist->addCard(cardinfo);
 	addChild(cardlist);
 
-	auto cardinfo2 = new Card();
+	auto cardinfo2 = new Card(Card::CARDTYPE::Hand);
 	cardinfo2->setPicturePath("Equip_Card/caihuan.jpg");
+	cardinfo2->setID(3);
 	cardlist->addCard(cardinfo2);
 
 	cardlist->setVisible(true);

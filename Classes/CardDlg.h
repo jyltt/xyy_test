@@ -38,6 +38,9 @@ public:
 	//获得卡牌的高和宽
 	float Wide(){ return m_spCard->getBoundingBox().size.width; }
 	float Hight(){ return m_spCard->getBoundingBox().size.height; }
+
+	//判断是否被按住
+	bool isTouch(const cocos2d::Point &point);
 protected:
 	const int m_nMoveHeight;
 	bool m_bShow;

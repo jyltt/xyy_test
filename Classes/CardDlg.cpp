@@ -63,6 +63,19 @@ void CardDlg::setShow(bool show)
 
 void CardDlg::setSelect(bool select)
 {
-	m_spCard->setPositionY(m_spCard->getPositionX() + m_nMoveHeight);
-	m_spCardBk->setPositionX(m_spCardBk->getPositionX() + m_nMoveHeight);
+	m_spCard->setPositionY(m_spCard->getPositionX() + (select?m_nMoveHeight:0));
+	m_spCardBk->setPositionX(m_spCardBk->getPositionX() + (select?m_nMoveHeight:0));
+}
+
+bool CardDlg::isTouch(const cocos2d::Point &point)
+{
+	auto nsp = m_spCard->convertToNodeSpace(point);
+	auto anPoint = m_spCard->getAnchorPoint();
+	auto bb = cocos2d::Rect(-Wide()*anPoint.x, Hight()*anPoint.y, Wide(), Hight());
+	if (nsp.x >= bb.origin.x&&nsp.x <= bb.origin.x + bb.size.width 
+		&& nsp.y >= bb.origin.y&&nsp.y <= bb.origin.y + bb.size.height)
+	{
+		return true;
+	}
+	return false;
 }

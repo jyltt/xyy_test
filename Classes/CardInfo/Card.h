@@ -7,10 +7,10 @@
 class Card
 {
 public:
-	Card();
-	enum class MODEL{ Primary , Expert };
 	enum class CARDTYPE{ Hand, Monster, Npc, Event, };
-	SET_GET(CARDTYPE, CardTpye);
+	Card(CARDTYPE type);
+	enum class MODEL{ Primary , Expert };
+	GET(CARDTYPE, CardTpye);
 	SET_GET(int , ID);
 	SET_GET_N(char , Name , 20);
 	SET_GET_N(char , PicturePath,30);

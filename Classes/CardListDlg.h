@@ -14,10 +14,10 @@ class CardListDlg:
 public:
 	enum class Model
 	{
-		single,			//单选一个
-		multiple,		//多选
-		sort,			//排序
-		sort_giveup,	//排序，有放弃部分
+		single,			//单选一个			已完成
+		multiple,		//多选				未完成
+		sort,			//排序				未完成
+		sort_giveup,	//排序，有放弃部分		未完成
 	};
 	
 	//创建后回自动隐，请在添加完卡牌后，再调用显示函数，避免出现不必要的卡顿效果
@@ -26,7 +26,8 @@ public:
 	virtual bool init()override;
 
 	// TODO: 添加按下响应函数
-
+	virtual bool onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event)override;
+	virtual void onTouchEnded(cocos2d::Touch *touch, cocos2d::Event *unused_event)override;
 	////////////
 
 	//设置列表类型，默认为单选

@@ -1,6 +1,6 @@
 <NPC>
-	<ÀîåÐÒ£>
-	    <PictureName>0</PictureName>
+	<æŽé€é¥>
+	    <PictureName>Role_Card/lixiaoyao.png</PictureName>
 	    <Sign>24</Sign>
 		<Model>1</Model>
 		<HP>8</HP>
@@ -16,23 +16,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÏÀ¹ÇÈáÇé>
-				<Text>ÄúÖ§Ô®Å®ÐÔ½ÇÉ«³ö·¢µÄÕ½¶·Ê±£¬ÄúµÄÃüÖÐ+1¡£</Text>
+			<ä¾ éª¨æŸ”æƒ…>
+				<Text>æ‚¨æ”¯æ´å¥³æ€§è§’è‰²å‡ºå‘çš„æˆ˜æ–—æ—¶ï¼Œæ‚¨çš„å‘½ä¸­+1ã€‚</Text>
 				<Sign>31</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</ÏÀ¹ÇÈáÇé>
-			<·ÉÁúÌ½ÔÆÊÖ>
-				<Text>Äú²ÎÓëÎÒ·½´¥·¢µÄÕ½¶·Ê±£¬Èô¹ÖÎïµÄÉÁ±ÜÐ¡ÓÚµÈÓÚ2£¬Õ½¶·¿ªÊ¼½×¶Î£¬Äú³éÈ¡Ã¿Ãû·À°­Õß1ÕÅÊÖÅÆ¡£</Text>
+			</ä¾ éª¨æŸ”æƒ…>
+			<é£žé¾™æŽ¢äº‘æ‰‹>
+				<Text>æ‚¨å‚ä¸Žæˆ‘æ–¹è§¦å‘çš„æˆ˜æ–—æ—¶ï¼Œè‹¥æ€ªç‰©çš„é—ªé¿å°äºŽç­‰äºŽ2ï¼Œæˆ˜æ–—å¼€å§‹é˜¶æ®µï¼Œæ‚¨æŠ½å–æ¯åé˜²ç¢è€…1å¼ æ‰‹ç‰Œã€‚</Text>
 				<Sign>32</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</·ÉÁúÌ½ÔÆÊÖ>
+			</é£žé¾™æŽ¢äº‘æ‰‹>
 		</Skill>
-	</ÀîåÐÒ£>
+	</æŽé€é¥>
 	
-	<ÕÔÁé¶ù>
-	    <PictureName>0</PictureName>
+	<èµµçµå„¿>
+	    <PictureName>Role_Card/zhaolinger.png</PictureName>
 	    <Sign>25</Sign>
 	    <Model>1</Model>
 		<HP>7</HP>
@@ -46,23 +46,23 @@
 		<Equip>2</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Ë«½£>
-				<Text>Äú¿ÉÒÔÍ¬Ê±×°±¸2¼þÎäÆ÷£¬Ð§¹ûµþ¼Ó¡£</Text>
+			<åŒå‰‘>
+				<Text>æ‚¨å¯ä»¥åŒæ—¶è£…å¤‡2ä»¶æ­¦å™¨ï¼Œæ•ˆæžœå åŠ ã€‚</Text>
 				<Sign>33</Sign>
 				<Status>2</Status>
 				<Initiative>0</Initiative>
-			</Ë«½£>
-			<ÃÎÉß>
-				<Text>µÐ·½ºÏ¼ÆÓµÓÐÈý¸ö»òÒÔÉÏ³èÎïÊ±£¬Äú±äÉíÎªÕÔÁé¶ù£¨ÃÎÉß£©£¬µ±Ç°HP²»±ä¡£</Text>
+			</åŒå‰‘>
+			<æ¢¦è›‡>
+				<Text>æ•Œæ–¹åˆè®¡æ‹¥æœ‰ä¸‰ä¸ªæˆ–ä»¥ä¸Šå® ç‰©æ—¶ï¼Œæ‚¨å˜èº«ä¸ºèµµçµå„¿ï¼ˆæ¢¦è›‡ï¼‰ï¼Œå½“å‰HPä¸å˜ã€‚</Text>
 				<Sign>34</Sign>
 				<Status>11</Status>
 				<Initiative>0</Initiative>
-			</ÃÎÉß>
+			</æ¢¦è›‡>
 		</Skill>
-	</ÕÔÁé¶ù>
+	</èµµçµå„¿>
 	
-	<ÕÔÁé¶ù£¨ÃÎÉß£©>
-	    <PictureName>0</PictureName>
+	<èµµçµå„¿ï¼ˆæ¢¦è›‡ï¼‰>
+	    <PictureName>Role_Card/zhaolinger_mengshe.png</PictureName>
 	    <Sign>26</Sign>
 	    <Model>1</Model>
 		<HP>7</HP>
@@ -76,29 +76,29 @@
 		<Equip>2</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<Ë«½£>
-				<Text>Äú¿ÉÒÔÍ¬Ê±×°±¸Á½¼þÎäÆ÷£¬Ð§¹ûµþ¼Ó¡£</Text>
+			<åŒå‰‘>
+				<Text>æ‚¨å¯ä»¥åŒæ—¶è£…å¤‡ä¸¤ä»¶æ­¦å™¨ï¼Œæ•ˆæžœå åŠ ã€‚</Text>
 				<Sign>35</Sign>
 				<Status>2</Status>
 				<Initiative>0</Initiative>
-			</Ë«½£>
-			<Å®æ´>
-				<Text>µ±ÄúÔÚ³¡Ê±£¬ÈÎÒâÕ½¶·ÖÐÎÒ·½Õ½Á¦¶îÍâ+2¡£</Text>
+			</åŒå‰‘>
+			<å¥³å¨²>
+				<Text>å½“æ‚¨åœ¨åœºæ—¶ï¼Œä»»æ„æˆ˜æ–—ä¸­æˆ‘æ–¹æˆ˜åŠ›é¢å¤–+2ã€‚</Text>
 				<Sign>36</Sign>
 				<Status>8</Status>
 				<Initiative>0</Initiative>
-			</Å®æ´>
-			<±äÉí>
-				<Text>µÐ·½ºÏ¼Æ²»×ã3¸ö³èÎïÊ±£¬Äú»¹Ô­ÎªÕÔÁé¶ù£¬µ±Ç°HP²»±ä¡£</Text>
+			</å¥³å¨²>
+			<å˜èº«>
+				<Text>æ•Œæ–¹åˆè®¡ä¸è¶³3ä¸ªå® ç‰©æ—¶ï¼Œæ‚¨è¿˜åŽŸä¸ºèµµçµå„¿ï¼Œå½“å‰HPä¸å˜ã€‚</Text>
 				<Sign>37</Sign>
 				<Status>11</Status>
 				<Initiative>0</Initiative>
-			</±äÉí>
+			</å˜èº«>
 		</Skill>
-	</ÕÔÁé¶ù£¨ÃÎÉß£©>
+	</èµµçµå„¿ï¼ˆæ¢¦è›‡ï¼‰>
 	
-	<ÁÖÔÂÈç>
-	    <PictureName>0</PictureName>
+	<æž—æœˆå¦‚>
+	    <PictureName>Role_Card/lingyueru.png</PictureName>
 	    <Sign>27</Sign>
 	    <Model>1</Model>
 		<HP>9</HP>
@@ -114,23 +114,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÁÖ¼Ò½£·¨>
-				<Text>µ±Äú×°±¸ÈÎÒâÎäÆ÷Ê±£¬ÄúµÄÕ½Á¦¶îÍâ+1¡£</Text>
+			<æž—å®¶å‰‘æ³•>
+				<Text>å½“æ‚¨è£…å¤‡ä»»æ„æ­¦å™¨æ—¶ï¼Œæ‚¨çš„æˆ˜åŠ›é¢å¤–+1ã€‚</Text>
 				<Sign>38</Sign>
 				<Status>5</Status>
 				<Initiative>0</Initiative>
-			</ÁÖ¼Ò½£·¨>
-			<¼µ¶ñÈç³ð>
-				<Text>Äú²ÎÓëÈÎÒâÕ½¶·Ê±£¬Èô±¾·½Ê§°Ü£¬Õ½¶·½áÊø½×¶Î£¬µÐ·½ËùÓÐ²ÎÕ½ÕßHP-1¡£</Text>
+			</æž—å®¶å‰‘æ³•>
+			<å«‰æ¶å¦‚ä»‡>
+				<Text>æ‚¨å‚ä¸Žä»»æ„æˆ˜æ–—æ—¶ï¼Œè‹¥æœ¬æ–¹å¤±è´¥ï¼Œæˆ˜æ–—ç»“æŸé˜¶æ®µï¼Œæ•Œæ–¹æ‰€æœ‰å‚æˆ˜è€…HP-1ã€‚</Text>
 				<Sign>39</Sign>
 				<Status>8</Status>
 				<Initiative>0</Initiative>
-			</¼µ¶ñÈç³ð>
+			</å«‰æ¶å¦‚ä»‡>
 		</Skill>
-	</ÁÖÔÂÈç>
+	</æž—æœˆå¦‚>
 	
-	<°¢Å«>
-	    <PictureName>0</PictureName>
+	<é˜¿å¥´>
+	    <PictureName>Role_Card/anu.png</PictureName>
 	    <Sign>28</Sign>
 	    <Model>0</Model>
 		<HP>5</HP>
@@ -141,23 +141,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<¹íÁé¾«>
-				<Text>¼¼ÅÆ½×¶Î£¬Äú¿ÉÒÔ½«ÈÎÒâÊýÁ¿µÄÊÖÅÆ½»¸ø1Ãû»ò¶àÃûÍæ¼Ò¡£</Text>
+			<é¬¼çµç²¾>
+				<Text>æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨å¯ä»¥å°†ä»»æ„æ•°é‡çš„æ‰‹ç‰Œäº¤ç»™1åæˆ–å¤šåçŽ©å®¶ã€‚</Text>
 				<Sign>40</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</¹íÁé¾«>
-			<Íò¹ÆÊÉÌì>
-				<Text>²¹ÅÆ½×¶Î¿ªÊ¼Ê±£¬ÈôÄúÃ»ÓÐÊÖÅÆ£¬ÔòÎÒ·½È«ÌåÍæ¼Ò²¹1ÕÅÅÆ£¬Ö®ºó×Ô¼ºÒÔÍâµÄËùÓÐ½ÇÉ«£¨°üÀ¨¶ÓÓÑ£©HP-1¡£</Text>
+			</é¬¼çµç²¾>
+			<ä¸‡è›Šå™¬å¤©>
+				<Text>è¡¥ç‰Œé˜¶æ®µå¼€å§‹æ—¶ï¼Œè‹¥æ‚¨æ²¡æœ‰æ‰‹ç‰Œï¼Œåˆ™æˆ‘æ–¹å…¨ä½“çŽ©å®¶è¡¥1å¼ ç‰Œï¼Œä¹‹åŽè‡ªå·±ä»¥å¤–çš„æ‰€æœ‰è§’è‰²ï¼ˆåŒ…æ‹¬é˜Ÿå‹ï¼‰HP-1ã€‚</Text>
 				<Sign>41</Sign>
 				<Status>9</Status>
 				<Initiative>0</Initiative>
-			</Íò¹ÆÊÉÌì>
+			</ä¸‡è›Šå™¬å¤©>
 		</Skill>
-	</°¢Å«>
+	</é˜¿å¥´>
 	
-	<¾Æ½£ÏÉ>
-	    <PictureName>0</PictureName>
+	<é…’å‰‘ä»™>
+	    <PictureName>Role_Card/jiujianxian.png</PictureName>
 	    <Sign>29</Sign>
 	    <Model>1</Model>
 		<HP>8</HP>
@@ -168,23 +168,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Óù½£Êõ>
-				<Text>µ±Äú×°±¸ÈÎÒâÎäÆ÷Ê±£¬ÄúµÄÃüÖÐ¶îÍâ+1¡£</Text>
+			<å¾¡å‰‘æœ¯>
+				<Text>å½“æ‚¨è£…å¤‡ä»»æ„æ­¦å™¨æ—¶ï¼Œæ‚¨çš„å‘½ä¸­é¢å¤–+1ã€‚</Text>
 				<Sign>42</Sign>
 				<Status>4</Status>
 				<Initiative>0</Initiative>
-			</Óù½£Êõ>
-			<×íÏÉÍûÔÂ²½>
-				<Text>ÄúµÄÕ½¶·½×¶ÎÖÐ£¬Äú¿ÉÒÔ´¥·¢2´ÎÕ½¶·¡£ÈôÖ»´¥·¢1´ÎÕ½¶·£¬²¹ÅÆ½×¶ÎÄú¶à²¹1ÕÅÅÆ¡£</Text>
+			</å¾¡å‰‘æœ¯>
+			<é†‰ä»™æœ›æœˆæ­¥>
+				<Text>æ‚¨çš„æˆ˜æ–—é˜¶æ®µä¸­ï¼Œæ‚¨å¯ä»¥è§¦å‘2æ¬¡æˆ˜æ–—ã€‚è‹¥åªè§¦å‘1æ¬¡æˆ˜æ–—ï¼Œè¡¥ç‰Œé˜¶æ®µæ‚¨å¤šè¡¥1å¼ ç‰Œã€‚</Text>
 				<Sign>43</Sign>
 				<Status>8</Status>
 				<Initiative>1</Initiative>
-			</×íÏÉÍûÔÂ²½>
+			</é†‰ä»™æœ›æœˆæ­¥>
 		</Skill>
-	</¾Æ½£ÏÉ>
+	</é…’å‰‘ä»™>
 	
-	<°ÝÔÂ½ÌÖ÷>
-	    <PictureName>0</PictureName>
+	<æ‹œæœˆæ•™ä¸»>
+	    <PictureName>Role_Card/baiyuejiaozhu.png</PictureName>
 	    <Sign>30</Sign>
 	    <Model>1</Model>
 		<HP>8</HP>
@@ -198,23 +198,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Ë®Ä§ÊÞºÏÌå>
-				<Text>²ÎÓëË®¡¢»ðÊôÐÔ¹ÖÎïµÄÕ½¶·Ê±£¬×ÔÉíÕ½Á¦+1¡£</Text>
+			<æ°´é­”å…½åˆä½“>
+				<Text>å‚ä¸Žæ°´ã€ç«å±žæ€§æ€ªç‰©çš„æˆ˜æ–—æ—¶ï¼Œè‡ªèº«æˆ˜åŠ›+1ã€‚</Text>
 				<Sign>44</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</Ë®Ä§ÊÞºÏÌå>
-			<ÕÙ»½Ë®Ä§ÊÞ>
-				<Text>²ÎÕ½Ê±£¨ÎÞÂÛÊÇ·ñÃüÖÐ£©£¬Õ½ÅÆ½×¶Î¿É¶ªÆú2ÕÅÊÖÅÆ£¬ÎÒ·½Õ½Á¦+5£¬Èô·¢¶¯´Ë¼¼ÄÜ£¬±¾³¡Õ½¶·ÖÐÄú²»¿ÉÊ¹ÓÃÕ½ÅÆ¡£</Text>
+			</æ°´é­”å…½åˆä½“>
+			<å¬å”¤æ°´é­”å…½>
+				<Text>å‚æˆ˜æ—¶ï¼ˆæ— è®ºæ˜¯å¦å‘½ä¸­ï¼‰ï¼Œæˆ˜ç‰Œé˜¶æ®µå¯ä¸¢å¼ƒ2å¼ æ‰‹ç‰Œï¼Œæˆ‘æ–¹æˆ˜åŠ›+5ï¼Œè‹¥å‘åŠ¨æ­¤æŠ€èƒ½ï¼Œæœ¬åœºæˆ˜æ–—ä¸­æ‚¨ä¸å¯ä½¿ç”¨æˆ˜ç‰Œã€‚</Text>
 				<Sign>45</Sign>
 				<Status>7</Status>
 				<Initiative>1</Initiative>
-			</ÕÙ»½Ë®Ä§ÊÞ>
+			</å¬å”¤æ°´é­”å…½>
 		</Skill>
-	</°ÝÔÂ½ÌÖ÷>
+	</æ‹œæœˆæ•™ä¸»>
 	
-	<ÍõÐ¡»¢>
-	    <PictureName>0</PictureName>
+	<çŽ‹å°è™Ž>
+	    <PictureName>Role_Card/wangxiaohu.png</PictureName>
 	    <Sign>31</Sign>
 	    <Model>0</Model>
 		<HP>11</HP>
@@ -229,23 +229,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<·¢»Ó²»ÎÈ¶¨>
-				<Text>ÄúÔÚÕ½¶·¿ªÊ¼½×¶Î½øÐÐÖÀ÷»×ÓÅÐ¶¨£¬±¾³¡Õ½¶·ÖÐÄúµÄÕ½Á¦=»ù´¡Õ½Á¦+÷»×ÓµãÊý¡£1,6Ëã×÷0µã¡£</Text>
+			<å‘æŒ¥ä¸ç¨³å®š>
+				<Text>æ‚¨åœ¨æˆ˜æ–—å¼€å§‹é˜¶æ®µè¿›è¡ŒæŽ·éª°å­åˆ¤å®šï¼Œæœ¬åœºæˆ˜æ–—ä¸­æ‚¨çš„æˆ˜åŠ›=åŸºç¡€æˆ˜åŠ›+éª°å­ç‚¹æ•°ã€‚1,6ç®—ä½œ0ç‚¹ã€‚</Text>
 				<Sign>46</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</·¢»Ó²»ÎÈ¶¨>
-			<²»Çü²»ÄÓ>
-				<Text>Äú½øÐÐÖÀ÷»×ÓÅÐ¶¨Ê±£¬Èô¶Ô÷»×ÓµãÊý²»ÂúÒâ£¬Ã¿¶ªÆúÒ»ÕÅÊÖÅÆ¿ÉÖØÖÀ1´Î¡£</Text>
+			</å‘æŒ¥ä¸ç¨³å®š>
+			<ä¸å±ˆä¸æŒ >
+				<Text>æ‚¨è¿›è¡ŒæŽ·éª°å­åˆ¤å®šæ—¶ï¼Œè‹¥å¯¹éª°å­ç‚¹æ•°ä¸æ»¡æ„ï¼Œæ¯ä¸¢å¼ƒä¸€å¼ æ‰‹ç‰Œå¯é‡æŽ·1æ¬¡ã€‚</Text>
 				<Sign>47</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</²»Çü²»ÄÓ>
+			</ä¸å±ˆä¸æŒ >
 		</Skill>
-	</ÍõÐ¡»¢>
+	</çŽ‹å°è™Ž>
 	
-	<ËÕÃÄ>
-	    <PictureName>0</PictureName>
+	<è‹åªš>
+	    <PictureName>Role_Card/sumei.png</PictureName>
 	    <Sign>32</Sign>
 	    <Model>0</Model>
 		<HP>6</HP>
@@ -259,23 +259,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<½Æ»«>
-				<Text>Äú´¥·¢Õ½¶·Ê±£¬Õ½¶·¿ªÊ¼½×¶Î¿É¶ªÆú´Ë¹ÖÅÆ£¬ÖØÐÂ·­È¡1ÕÅ¡£Ã¿»ØºÏÖ»ÄÜÊ¹ÓÃ1´Î¡£</Text>
+			<ç‹¡çŒ¾>
+				<Text>æ‚¨è§¦å‘æˆ˜æ–—æ—¶ï¼Œæˆ˜æ–—å¼€å§‹é˜¶æ®µå¯ä¸¢å¼ƒæ­¤æ€ªç‰Œï¼Œé‡æ–°ç¿»å–1å¼ ã€‚æ¯å›žåˆåªèƒ½ä½¿ç”¨1æ¬¡ã€‚</Text>
 				<Sign>48</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</½Æ»«>
-			<¾Ü¾ø>
-				<Text>Äú¿ÉÒÔ½«ÈÎÒâÌØÊâÀàÊÖÅÆµ±×ö±ùÐÄ¾÷Ê¹ÓÃ¡£</Text>
+			</ç‹¡çŒ¾>
+			<æ‹’ç»>
+				<Text>æ‚¨å¯ä»¥å°†ä»»æ„ç‰¹æ®Šç±»æ‰‹ç‰Œå½“åšå†°å¿ƒè¯€ä½¿ç”¨ã€‚</Text>
 				<Sign>49</Sign>
 				<Status>13</Status>
 				<Initiative>1</Initiative>
-			</¾Ü¾ø>
+			</æ‹’ç»>
 		</Skill>
-	</ËÕÃÄ>
+	</è‹åªš>
 	
-	<ÉòÆÛËª>
-	    <PictureName>0</PictureName>
+	<æ²ˆæ¬ºéœœ>
+	    <PictureName>Role_Card/shenqishuang.png</PictureName>
 	    <Sign>33</Sign>
 	    <Model>1</Model>
 		<HP>6</HP>
@@ -289,23 +289,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÏÉÏ¼ÎåÆæ>
-				<Text>ÄúÔÚ³¡Ê±£¬ÈôÎÒ·½Ö§Ô®ÎªÃüÖÐ»òÃ»ÓÐÖ§Ô®£¬´¥·¢ÕßÕ½Á¦+3¡£ÈôÎÒ·½·Á°­Î´ÃüÖÐ»òÃ»ÓÐ·Á°­£¬¹ÖÎïÕ½Á¦+3¡£</Text>
+			<ä»™éœžäº”å¥‡>
+				<Text>æ‚¨åœ¨åœºæ—¶ï¼Œè‹¥æˆ‘æ–¹æ”¯æ´ä¸ºå‘½ä¸­æˆ–æ²¡æœ‰æ”¯æ´ï¼Œè§¦å‘è€…æˆ˜åŠ›+3ã€‚è‹¥æˆ‘æ–¹å¦¨ç¢æœªå‘½ä¸­æˆ–æ²¡æœ‰å¦¨ç¢ï¼Œæ€ªç‰©æˆ˜åŠ›+3ã€‚</Text>
 				<Sign>50</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</ÏÉÏ¼ÎåÆæ>
-			<ÔªÁé¹éÐÄÊõ>
-				<Text>ÔÚÄúµÄ¼¼ÅÆ½×¶Î£¬ÄúÃ¿¶ªÆú1ÕÅ¼¼ÅÆ£¬»Ö¸´ÈÎÒâÍæ¼Ò2µãHP¡£</Text>
+			</ä»™éœžäº”å¥‡>
+			<å…ƒçµå½’å¿ƒæœ¯>
+				<Text>åœ¨æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨æ¯ä¸¢å¼ƒ1å¼ æŠ€ç‰Œï¼Œæ¢å¤ä»»æ„çŽ©å®¶2ç‚¹HPã€‚</Text>
 				<Sign>51</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</ÔªÁé¹éÐÄÊõ>
+			</å…ƒçµå½’å¿ƒæœ¯>
 		</Skill>
-	</ÉòÆÛËª>
+	</æ²ˆæ¬ºéœœ>
 	
-	<¿×­U>
-	    <PictureName>0</PictureName>
+	<å­”ç’˜>
+	    <PictureName>Role_Card/konglin.png</PictureName>
 	    <Sign>34</Sign>
 	    <Model>1</Model>
 		<HP>10</HP>
@@ -316,23 +316,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<À±ÊÖ´Ý»¨>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬ÈôÄúµÄHP´óÓÚµÈÓÚ2£¬Äú¿ÉÑ¡¶¨1ÃûÔÚ³¡Å®ÐÔ½ÇÉ«£¬ÁîÆäÓëÄúµÄHP¸÷-1¡£Ò»»ØºÏÄÚ²»ÄÜ¶ÔÍ¬Ò»½ÇÉ«·´¸´Ê¹ÓÃ¡£</Text>
+			<è¾£æ‰‹æ‘§èŠ±>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œè‹¥æ‚¨çš„HPå¤§äºŽç­‰äºŽ2ï¼Œæ‚¨å¯é€‰å®š1ååœ¨åœºå¥³æ€§è§’è‰²ï¼Œä»¤å…¶ä¸Žæ‚¨çš„HPå„-1ã€‚ä¸€å›žåˆå†…ä¸èƒ½å¯¹åŒä¸€è§’è‰²åå¤ä½¿ç”¨ã€‚</Text>
 				<Sign>52</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</À±ÊÖ´Ý»¨>
-			<ÉúÃüÏ×¼À>
-				<Text>ÄúËÀÍöºó±äÎªÄ§×ð¡£×°±¸£¬ÊÖÅÆ£¬³èÎï±£Áô¡£</Text>
+			</è¾£æ‰‹æ‘§èŠ±>
+			<ç”Ÿå‘½çŒ®ç¥­>
+				<Text>æ‚¨æ­»äº¡åŽå˜ä¸ºé­”å°Šã€‚è£…å¤‡ï¼Œæ‰‹ç‰Œï¼Œå® ç‰©ä¿ç•™ã€‚</Text>
 				<Sign>53</Sign>
 				<Status>13</Status>
 				<Initiative>0</Initiative>
-			</ÉúÃüÏ×¼À>
+			</ç”Ÿå‘½çŒ®ç¥­>
 		</Skill>
-	</¿×­U>
+	</å­”ç’˜>
 	
-	<Ä§×ð>
-	    <PictureName>0</PictureName>
+	<é­”å°Š>
+	    <PictureName>Role_Card/mozun.png</PictureName>
 	    <Sign>35</Sign>
 	    <Model>1</Model>
 		<HP>5</HP>
@@ -343,23 +343,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÐîÊÆ´ý·¢>
-				<Text>ÄúµÄ»ØºÏ¿ªÊ¼½×¶Î£¬Äú²¹³ä1ÕÅÊÖÅÆ¡£</Text>
+			<è“„åŠ¿å¾…å‘>
+				<Text>æ‚¨çš„å›žåˆå¼€å§‹é˜¶æ®µï¼Œæ‚¨è¡¥å……1å¼ æ‰‹ç‰Œã€‚</Text>
 				<Sign>54</Sign>
 				<Status>1</Status>
 				<Initiative>0</Initiative>
-			</ÐîÊÆ´ý·¢>
-			<±À»µ>
-				<Text>ÄúµÄ»ØºÏ½áÊø½×¶Î£¬ÄúµÄHP-1¡£</Text>
+			</è“„åŠ¿å¾…å‘>
+			<å´©å>
+				<Text>æ‚¨çš„å›žåˆç»“æŸé˜¶æ®µï¼Œæ‚¨çš„HP-1ã€‚</Text>
 				<Sign>55</Sign>
 				<Status>11</Status>
 				<Initiative>0</Initiative>
-			</±À»µ>
+			</å´©å>
 		</Skill>
-	</Ä§×ð>
+	</é­”å°Š>
 	
-	<ÌÆÑ©¼û>
-	    <PictureName>0</PictureName>
+	<å”é›ªè§>
+	    <PictureName>Role_Card/tangxuejian.png</PictureName>
 	    <Sign>36</Sign>
 	    <Model>0</Model>
 		<HP>6</HP>
@@ -370,29 +370,29 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<×·´ò>
-				<Text>µ±ÓÐÍæ¼ÒHP¼õÉÙÊ±£¬Äú¿ÉÒÔ¶ªÆú1ÕÅÊÖÅÆ£¬±¾´ÎHP¼õÉÙµÄÈ«²¿Íæ¼Ò£¨¿ÉÄÜ°üÀ¨Äã×Ô¼º£©HP¶îÍâ-1¡£</Text>
+			<è¿½æ‰“>
+				<Text>å½“æœ‰çŽ©å®¶HPå‡å°‘æ—¶ï¼Œæ‚¨å¯ä»¥ä¸¢å¼ƒ1å¼ æ‰‹ç‰Œï¼Œæœ¬æ¬¡HPå‡å°‘çš„å…¨éƒ¨çŽ©å®¶ï¼ˆå¯èƒ½åŒ…æ‹¬ä½ è‡ªå·±ï¼‰HPé¢å¤–-1ã€‚</Text>
 				<Sign>56</Sign>
 				<Status>14</Status>
 				<Initiative>1</Initiative>
-			</×·´ò>
-			<Á¬»÷>
-				<Text>Õ½ÅÆ½×¶Î£¬ÄúÃ¿¶ªÆú1ÕÅÕ½ÅÆÒÔÍâµÄÊÖÅÆ£¬±¾³¡Õ½¶·ÄÚÄúµÄÕ½Á¦+2¡£</Text>
+			</è¿½æ‰“>
+			<è¿žå‡»>
+				<Text>æˆ˜ç‰Œé˜¶æ®µï¼Œæ‚¨æ¯ä¸¢å¼ƒ1å¼ æˆ˜ç‰Œä»¥å¤–çš„æ‰‹ç‰Œï¼Œæœ¬åœºæˆ˜æ–—å†…æ‚¨çš„æˆ˜åŠ›+2ã€‚</Text>
 				<Sign>57</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</Á¬»÷>
-			<ºÃÊ¤>
-				<Text>Äú²ÎÕ½Ê±£¬¿ÉÔÚÕ½ÅÆ½×¶Î¿Û¼õ×Ô¼º2HPºó£¬²¹2ÕÅÅÆ£¬Ã¿³¡Õ½¶·Ö»ÄÜÊ¹ÓÃÒ»´Î¡£±¾ÉËº¦Òþ¹ÆÎÞÐ§¡£</Text>
+			</è¿žå‡»>
+			<å¥½èƒœ>
+				<Text>æ‚¨å‚æˆ˜æ—¶ï¼Œå¯åœ¨æˆ˜ç‰Œé˜¶æ®µæ‰£å‡è‡ªå·±2HPåŽï¼Œè¡¥2å¼ ç‰Œï¼Œæ¯åœºæˆ˜æ–—åªèƒ½ä½¿ç”¨ä¸€æ¬¡ã€‚æœ¬ä¼¤å®³éšè›Šæ— æ•ˆã€‚</Text>
 				<Sign>58</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</ºÃÊ¤>
+			</å¥½èƒœ>
 		</Skill>
-	</ÌÆÑ©¼û>
+	</å”é›ªè§>
 	
-	<×ÏÝæ>
-	    <PictureName>0</PictureName>
+	<ç´«è±>
+	    <PictureName>Role_Card/zixuan.png</PictureName>
 	    <Sign>37</Sign>
 	    <Model>1</Model>
 		<HP>5</HP>
@@ -406,23 +406,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<¹Ø°®>
-				<Text>ÄúÔÚ³¡Ê±£¬ÎÒ·½Ã¿µÃµ½1¸ö³èÎï£¬ÄúÖ¸¶¨1ÈË²¹³ä2ÕÅÊÖÅÆ¡£</Text>
+			<å…³çˆ±>
+				<Text>æ‚¨åœ¨åœºæ—¶ï¼Œæˆ‘æ–¹æ¯å¾—åˆ°1ä¸ªå® ç‰©ï¼Œæ‚¨æŒ‡å®š1äººè¡¥å……2å¼ æ‰‹ç‰Œã€‚</Text>
 				<Sign>59</Sign>
 				<Status>8</Status>
 				<Initiative>0</Initiative>
-			</¹Ø°®>
-			<Ê¥Éñ>
-				<Text>ÄúÓµÓÐµÄ³èÎïÕ½Á¦¶îÍâ+3¡£</Text>
+			</å…³çˆ±>
+			<åœ£ç¥ž>
+				<Text>æ‚¨æ‹¥æœ‰çš„å® ç‰©æˆ˜åŠ›é¢å¤–+3ã€‚</Text>
 				<Sign>60</Sign>
 				<Status>8</Status>
 				<Initiative>0</Initiative>
-			</Ê¥Éñ>
+			</åœ£ç¥ž>
 		</Skill>
-	</×ÏÝæ>
+	</ç´«è±>
 	
-	<ÖØÂ¥>
-	    <PictureName>0</PictureName>
+	<é‡æ¥¼>
+	    <PictureName>Role_Card/chonglou.png</PictureName>
 	    <Sign>38</Sign>
 	    <Model>0</Model>
 		<HP>12</HP>
@@ -433,29 +433,29 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<¾ö¶·>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬¿É¶ªÆúnÕÅÊÖÅÆ£¨n=±¾»ØºÏ·¢¶¯¾ö¶·µÄ´ÎÊý£©£¬²¢Ö¸¶¨1-2Ãû½ÇÉ«·Ö±ðÓë×Ô¼ºÖÀ÷»Æ´µã£¬µãÊýÐ¡µÄÒ»·½HP-3£¬Æ½¾ÖË«·½HP-2,¡£¾ö¶·Ôì³ÉµÄÉËº¦Òþ¹ÆÎÞÐ§¡£</Text>
+			<å†³æ–—>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œå¯ä¸¢å¼ƒnå¼ æ‰‹ç‰Œï¼ˆn=æœ¬å›žåˆå‘åŠ¨å†³æ–—çš„æ¬¡æ•°ï¼‰ï¼Œå¹¶æŒ‡å®š1-2åè§’è‰²åˆ†åˆ«ä¸Žè‡ªå·±æŽ·éª°æ‹¼ç‚¹ï¼Œç‚¹æ•°å°çš„ä¸€æ–¹HP-3ï¼Œå¹³å±€åŒæ–¹HP-2,ã€‚å†³æ–—é€ æˆçš„ä¼¤å®³éšè›Šæ— æ•ˆã€‚</Text>
 				<Sign>61</Sign>
 				<Status>3</Status>
 				<Initiative>1</Initiative>
-			</¾ö¶·>
-			<ÊÖÏÂÁôÇé>
-				<Text>HP´óÓÚµÈÓÚ2µÄÒ»·½£¬¾ö¶·ºóÖÁÉÙ±£Áô1HP¡£</Text>
+			</å†³æ–—>
+			<æ‰‹ä¸‹ç•™æƒ…>
+				<Text>HPå¤§äºŽç­‰äºŽ2çš„ä¸€æ–¹ï¼Œå†³æ–—åŽè‡³å°‘ä¿ç•™1HPã€‚</Text>
 				<Sign>62</Sign>
 				<Status>3</Status>
 				<Initiative>0</Initiative>
-			</ÊÖÏÂÁôÇé>
-			<½µÁÙ>
-				<Text>Äú×÷Îª·Á°­ÕßÊ±£¬ÄúµÄÃüÖÐ¶îÍâ+2¡£</Text>
+			</æ‰‹ä¸‹ç•™æƒ…>
+			<é™ä¸´>
+				<Text>æ‚¨ä½œä¸ºå¦¨ç¢è€…æ—¶ï¼Œæ‚¨çš„å‘½ä¸­é¢å¤–+2ã€‚</Text>
 				<Sign>63</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</½µÁÙ>
+			</é™ä¸´>
 		</Skill>
-	</ÖØÂ¥>
+	</é‡æ¥¼>
 	
-	<ÄÏ¹¬»Í>
-	    <PictureName>0</PictureName>
+	<å—å®«ç…Œ>
+	    <PictureName>Role_Card/nangonghuang.png</PictureName>
 	    <Sign>39</Sign>
 	    <Model>1</Model>
 		<HP>9</HP>
@@ -470,23 +470,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Õ¼²·>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬¿ÉÆúµô1ÕÅÊÖÅÆ£¬Ö®ºóÄÃÈ¡¹ÖÎïÅÆ¶Ñ¶¥µÄ3ÕÅÅÆ£¬¼ìÊÓºóÆúµôÆäÖÐµÄ2ÕÅ£¬½«Ê£ÓàµÄ1ÕÅ·Å»Ø¹ÖÎïÅÆ¶Ñ¶¥¡£Ã¿»ØºÏÖ»¿É·¢¶¯Ò»´Î¡£</Text>
+			<å åœ>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œå¯å¼ƒæŽ‰1å¼ æ‰‹ç‰Œï¼Œä¹‹åŽæ‹¿å–æ€ªç‰©ç‰Œå †é¡¶çš„3å¼ ç‰Œï¼Œæ£€è§†åŽå¼ƒæŽ‰å…¶ä¸­çš„2å¼ ï¼Œå°†å‰©ä½™çš„1å¼ æ”¾å›žæ€ªç‰©ç‰Œå †é¡¶ã€‚æ¯å›žåˆåªå¯å‘åŠ¨ä¸€æ¬¡ã€‚</Text>
 				<Sign>64</Sign>
 				<Status>3</Status>
 				<Initiative>1</Initiative>
-			</Õ¼²·>
-			<Éã»ê·¨Õó>
-				<Text>Äú´¥·¢µÄÕ½¶·²¢»ñµÃ³èÎïÊ±£¬¿ÉÏûÃð¶Ô·½ÈÎÒâ1Ö»Í¬ÊôÐÔµÄ³èÎï¡£</Text>
+			</å åœ>
+			<æ‘„é­‚æ³•é˜µ>
+				<Text>æ‚¨è§¦å‘çš„æˆ˜æ–—å¹¶èŽ·å¾—å® ç‰©æ—¶ï¼Œå¯æ¶ˆç­å¯¹æ–¹ä»»æ„1åªåŒå±žæ€§çš„å® ç‰©ã€‚</Text>
 				<Sign>65</Sign>
 				<Status>8</Status>
 				<Initiative>1</Initiative>
-			</Éã»ê·¨Õó>
+			</æ‘„é­‚æ³•é˜µ>
 		</Skill>
-	</ÄÏ¹¬»Í>
+	</å—å®«ç…Œ>
 	
-	<ÎÂ»Û>
-	    <PictureName>0</PictureName>
+	<æ¸©æ…§>
+	    <PictureName>Role_Card/wenhui.png</PictureName>
 	    <Sign>40</Sign>
 	    <Model>1</Model>
 		<HP>11</HP>
@@ -500,23 +500,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Õó·¨>
-				<Text>µ±Äú´¥·¢Õ½¶·Ê±£¬ÈôÎÒ·½Ö§Ô®Î´ÃüÖÐ£¬ÄúÔÚ±¾³¡Õ½¶·ÖÐÕ½Á¦¶îÍâ+2¡£</Text>
+			<é˜µæ³•>
+				<Text>å½“æ‚¨è§¦å‘æˆ˜æ–—æ—¶ï¼Œè‹¥æˆ‘æ–¹æ”¯æ´æœªå‘½ä¸­ï¼Œæ‚¨åœ¨æœ¬åœºæˆ˜æ–—ä¸­æˆ˜åŠ›é¢å¤–+2ã€‚</Text>
 				<Sign>66</Sign>
 				<Status>7</Status>
 				<Initiative>0</Initiative>
-			</Õó·¨>
-			<Âùºá>
-				<Text>ÈôÄú´¥·¢Õ½¶·²¢ÇÒÕ½¶·Ê§°Ü£¬Õ½¶·½áÊø½×¶Î£¬Äú¿ÉÖ¸¶¨ÈÎÒâ1Ãû½ÇÉ«HP-2¡£</Text>
+			</é˜µæ³•>
+			<è›®æ¨ª>
+				<Text>è‹¥æ‚¨è§¦å‘æˆ˜æ–—å¹¶ä¸”æˆ˜æ–—å¤±è´¥ï¼Œæˆ˜æ–—ç»“æŸé˜¶æ®µï¼Œæ‚¨å¯æŒ‡å®šä»»æ„1åè§’è‰²HP-2ã€‚</Text>
 				<Sign>67</Sign>
 				<Status>8</Status>
 				<Initiative>1</Initiative>
-			</Âùºá>
+			</è›®æ¨ª>
 		</Skill>
-	</ÎÂ»Û>
+	</æ¸©æ…§>
 	
-	<ÐÇè¯>
-	    <PictureName>0</PictureName>
+	<æ˜Ÿç’‡>
+	    <PictureName>Role_Card/xingxuan.png</PictureName>
 	    <Sign>41</Sign>
 	    <Model>0</Model>
 		<HP>7</HP>
@@ -530,23 +530,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Åëâ¿>
-				<Text>Äú¿ÉÒÔ½«ÈÎÒâ2ÕÅÊÖÅÆµ±×öÁéºùÏÉµ¤Ê¹ÓÃ¡£</Text>
+			<çƒ¹é¥ª>
+				<Text>æ‚¨å¯ä»¥å°†ä»»æ„2å¼ æ‰‹ç‰Œå½“åšçµè‘«ä»™ä¸¹ä½¿ç”¨ã€‚</Text>
 				<Sign>68</Sign>
 				<Status>8</Status>
 				<Initiative>1</Initiative>
-			</Åëâ¿>
-			<ÐÖ³¤>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬Äú¿ÉÊÕÈ¡¸÷¶ÓÓÑÈÎÒâÕÅÊÖÅÆ£¬È»ºó½«È«²¿ÊÖÅÆÈÎÒâ·ÖÅä¡£</Text>
+			</çƒ¹é¥ª>
+			<å…„é•¿>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨å¯æ”¶å–å„é˜Ÿå‹ä»»æ„å¼ æ‰‹ç‰Œï¼Œç„¶åŽå°†å…¨éƒ¨æ‰‹ç‰Œä»»æ„åˆ†é…ã€‚</Text>
 				<Sign>69</Sign>
 				<Status>17</Status>
 				<Initiative>1</Initiative>
-			</ÐÖ³¤>
+			</å…„é•¿>
 		</Skill>
-	</ÐÇè¯>
+	</æ˜Ÿç’‡>
 	
-	<ÍõÅîÐõ>
-	    <PictureName>0</PictureName>
+	<çŽ‹è“¬çµ®>
+	    <PictureName>Role_Card/wangpengxu.png</PictureName>
 	    <Sign>42</Sign>
 	    <Model>1</Model>
 		<HP>6</HP>
@@ -560,29 +560,29 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<÷Ò÷Ñ>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬ÄúÃ¿¶ªÆú1ÕÅÊÖÅÆ»ò×°±¸£¬×ÔÉíHP+2¡£</Text>
+			<é¥•é¤®>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨æ¯ä¸¢å¼ƒ1å¼ æ‰‹ç‰Œæˆ–è£…å¤‡ï¼Œè‡ªèº«HP+2ã€‚</Text>
 				<Sign>70</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</÷Ò÷Ñ>
-			<ºÏ³ÉÊÎÆ·>
-				<Text>Äú¿ÉÒÔ½«ÈÎÒâ·Ç×ª±­ÀàÊÖÅÆµ±×öÊÎÆ·×°±¸£¬Ã¿×°±¸1¸ö£¬Õ½Á¦+1£¬ÉÏÏÞ5¸ö¡£</Text>
+			</é¥•é¤®>
+			<åˆæˆé¥°å“>
+				<Text>æ‚¨å¯ä»¥å°†ä»»æ„éžè½¬æ¯ç±»æ‰‹ç‰Œå½“åšé¥°å“è£…å¤‡ï¼Œæ¯è£…å¤‡1ä¸ªï¼Œæˆ˜åŠ›+1ï¼Œä¸Šé™5ä¸ªã€‚</Text>
 				<Sign>71</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</ºÏ³ÉÊÎÆ·>
-			<Ãô¸Ð>
-				<Text>Äú¿ÉÒÔÔÚÈÎÒâÊ±¼ä×°±¸ÊÎÆ·¡£</Text>
+			</åˆæˆé¥°å“>
+			<æ•æ„Ÿ>
+				<Text>æ‚¨å¯ä»¥åœ¨ä»»æ„æ—¶é—´è£…å¤‡é¥°å“ã€‚</Text>
 				<Sign>72</Sign>
 				<Status>17</Status>
 				<Initiative>1</Initiative>
-			</Ãô¸Ð>
+			</æ•æ„Ÿ>
 		</Skill>
-	</ÍõÅîÐõ>
+	</çŽ‹è“¬çµ®>
 	
-	<ÔÆÌìºÓ>
-	    <PictureName>0</PictureName>
+	<äº‘å¤©æ²³>
+	    <PictureName>Role_Card/yuntianhe.png</PictureName>
 	    <Sign>43</Sign>
 	    <Model>0</Model>
 		<HP>8</HP>
@@ -597,23 +597,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÌìºÓ½£>
-				<Text>µ±Äú²ÎÕ½Ê±£¬ÈôÄúµÄÃüÖÐ´óÓÚµÈÓÚ¹ÖÎïÉÁ±Ü4µã£¬Ôò±¾³¡Õ½¶·ÖÐÄúµÄÕ½Á¦¶îÍâ+2¡£</Text>
+			<å¤©æ²³å‰‘>
+				<Text>å½“æ‚¨å‚æˆ˜æ—¶ï¼Œè‹¥æ‚¨çš„å‘½ä¸­å¤§äºŽç­‰äºŽæ€ªç‰©é—ªé¿4ç‚¹ï¼Œåˆ™æœ¬åœºæˆ˜æ–—ä¸­æ‚¨çš„æˆ˜åŠ›é¢å¤–+2ã€‚</Text>
 				<Sign>73</Sign>
 				<Status>7</Status>
 				<Initiative>0</Initiative>
-			</ÌìºÓ½£>
-			<ºóôàÉäÈÕ¹­>
-				<Text>±¾³¡Õ½¶·ÖÐÎÒ·½Õ½Á¦¶îÍâ+8¡£ÈÎÒâÕ½¶·µÄÕ½ÅÆ½×¶Î¾ù¿ÉÊ¹ÓÃ£¬¼´Ê¹ÄúÎ´²ÎÕ½£¬±¾²úÕ½¶·½áÊøºóÄúµÄÃüÖÐÓÀ¾Ã±ä³É0¡£Ã¿¾ÖÓÎÏ·ÖÐÖ»ÄÜÊ¹ÓÃ1´Î¡£</Text>
+			</å¤©æ²³å‰‘>
+			<åŽç¾¿å°„æ—¥å¼“>
+				<Text>æœ¬åœºæˆ˜æ–—ä¸­æˆ‘æ–¹æˆ˜åŠ›é¢å¤–+8ã€‚ä»»æ„æˆ˜æ–—çš„æˆ˜ç‰Œé˜¶æ®µå‡å¯ä½¿ç”¨ï¼Œå³ä½¿æ‚¨æœªå‚æˆ˜ï¼Œæœ¬äº§æˆ˜æ–—ç»“æŸåŽæ‚¨çš„å‘½ä¸­æ°¸ä¹…å˜æˆ0ã€‚æ¯å±€æ¸¸æˆä¸­åªèƒ½ä½¿ç”¨1æ¬¡ã€‚</Text>
 				<Sign>74</Sign>
 				<Status>7</Status>
 				<Initiative>1</Initiative>
-			</ºóôàÉäÈÕ¹­>
+			</åŽç¾¿å°„æ—¥å¼“>
 		</Skill>
-	</ÔÆÌìºÓ>
+	</äº‘å¤©æ²³>
 	
-	<º«ÁâÉ´>
-	    <PictureName>0</PictureName>
+	<éŸ©è±çº±>
+	    <PictureName>Role_Card/hanlingsha.png</PictureName>
 	    <Sign>44</Sign>
 	    <Model>0</Model>
 		<HP>7</HP>
@@ -627,23 +627,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<½Ù¸»¼ÃÆ¶>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬Äú¿É²¹Ò»ÕÅÅÆ£¬Èô·¢¶¯´Ë¼¼ÄÜºóÄúµÄÊÖÅÆÊý´óÓÚµÈÓÚ2£¬ÐèÑ¡Ôñ¶ªÆú1ÕÅ¡£Ã¿»ØºÏÖ»ÄÜÊ¹ÓÃÒ»´Î¡£</Text>
+			<åŠ«å¯ŒæµŽè´«>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨å¯è¡¥ä¸€å¼ ç‰Œï¼Œè‹¥å‘åŠ¨æ­¤æŠ€èƒ½åŽæ‚¨çš„æ‰‹ç‰Œæ•°å¤§äºŽç­‰äºŽ2ï¼Œéœ€é€‰æ‹©ä¸¢å¼ƒ1å¼ ã€‚æ¯å›žåˆåªèƒ½ä½¿ç”¨ä¸€æ¬¡ã€‚</Text>
 				<Sign>75</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</½Ù¸»¼ÃÆ¶>
-			<µÁÄ¹>
-				<Text>ÈÎÒâÍæ¼ÒËÀÍöÍË³¡Ê±£¬ÄúµÃµ½²¢ÈÎÒâ·ÖÅäÆäËùÓÐÊÖÅÆ£¬×°±¸¡£·¢¶¯ºó×ÔÉíHP-1¡£</Text>
+			</åŠ«å¯ŒæµŽè´«>
+			<ç›—å¢“>
+				<Text>ä»»æ„çŽ©å®¶æ­»äº¡é€€åœºæ—¶ï¼Œæ‚¨å¾—åˆ°å¹¶ä»»æ„åˆ†é…å…¶æ‰€æœ‰æ‰‹ç‰Œï¼Œè£…å¤‡ã€‚å‘åŠ¨åŽè‡ªèº«HP-1ã€‚</Text>
 				<Sign>76</Sign>
 				<Status>13</Status>
 				<Initiative>0</Initiative>
-			</µÁÄ¹>
+			</ç›—å¢“>
 		</Skill>
-	</º«ÁâÉ´>
+	</éŸ©è±çº±>
 	
-	<ÁøÃÎÁ§>
-	    <PictureName>0</PictureName>
+	<æŸ³æ¢¦ç’ƒ>
+	    <PictureName>Role_Card/liumengli.png</PictureName>
 	    <Sign>45</Sign>
 	    <Model>0</Model>
 		<HP>7</HP>
@@ -657,23 +657,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<ÑýÍõ>
-				<Text>µ±ÄúÔÚ³¡Ê±£¬ÎÒ·½µÄÃ¿¸ö³èÎï¶îÍâ»ñµÃ¡°Ö÷ÈËÕ½Á¦+1¡±µÄ³èÎïÐ§¹û¡£</Text>
+			<å¦–çŽ‹>
+				<Text>å½“æ‚¨åœ¨åœºæ—¶ï¼Œæˆ‘æ–¹çš„æ¯ä¸ªå® ç‰©é¢å¤–èŽ·å¾—â€œä¸»äººæˆ˜åŠ›+1â€çš„å® ç‰©æ•ˆæžœã€‚</Text>
 				<Sign>77</Sign>
 				<Status>8</Status>
 				<Initiative>0</Initiative>
-			</ÑýÍõ>
-			<ÃÎ¿þÀÜ>
-				<Text>ÄúËÀÍöÍË³¡ºó£¬ÄúµÄÃüÖÐ±äÎª5£¬²¢ÒÀÈ»¿ÉÒÔ½øÐÐÖ§Ô®£¬·Á°­¡£</Text>
+			</å¦–çŽ‹>
+			<æ¢¦å‚€å„¡>
+				<Text>æ‚¨æ­»äº¡é€€åœºåŽï¼Œæ‚¨çš„å‘½ä¸­å˜ä¸º5ï¼Œå¹¶ä¾ç„¶å¯ä»¥è¿›è¡Œæ”¯æ´ï¼Œå¦¨ç¢ã€‚</Text>
 				<Sign>78</Sign>
 				<Status>13</Status>
 				<Initiative>0</Initiative>
-			</ÃÎ¿þÀÜ>
+			</æ¢¦å‚€å„¡>
 		</Skill>
-	</ÁøÃÎÁ§>
+	</æŸ³æ¢¦ç’ƒ>
 	
-	<Ä½ÈÝ×ÏÓ¢>
-		<PictureName>0</PictureName>
+	<æ…•å®¹ç´«è‹±>
+		<PictureName>Role_Card/murongziying.png</PictureName>
 	    <Sign>46</Sign>
 	    <Model>0</Model>
 		<HP>7</HP>
@@ -684,29 +684,29 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<Ôù½£>
-				<Text>ÄúµÄ¼¼ÅÆ½×¶Î£¬Äú¿É½«×Ô¼º×°±¸ÇøÖÐµÄ×°±¸×ªÒÆµ½ÆäËûÍæ¼ÒµÄ×°±¸ÇøÖÐ¡£Ã¿Í¨¹ý´Ë¼¼ÄÜ×ªÒÆ1¼þ×°±¸£¬ÄúÁ¢¿Ì²¹2ÕÅÅÆ¡£Ò»»ØºÏÄÚ²»ÄÜ¶ÔÍ¬Ò»½ÇÉ«·´¸´Ê¹ÓÃ¡£</Text>
+			<èµ å‰‘>
+				<Text>æ‚¨çš„æŠ€ç‰Œé˜¶æ®µï¼Œæ‚¨å¯å°†è‡ªå·±è£…å¤‡åŒºä¸­çš„è£…å¤‡è½¬ç§»åˆ°å…¶ä»–çŽ©å®¶çš„è£…å¤‡åŒºä¸­ã€‚æ¯é€šè¿‡æ­¤æŠ€èƒ½è½¬ç§»1ä»¶è£…å¤‡ï¼Œæ‚¨ç«‹åˆ»è¡¥2å¼ ç‰Œã€‚ä¸€å›žåˆå†…ä¸èƒ½å¯¹åŒä¸€è§’è‰²åå¤ä½¿ç”¨ã€‚</Text>
 				<Sign>79</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</Ôù½£>
-			<½£Ï»>
-				<Text>ÄúÔÚÆúÅÆ½×¶Î£¬ÊÖÅÆÉÏÏÞÎª5ÕÅ¡£</Text>
+			</èµ å‰‘>
+			<å‰‘åŒ£>
+				<Text>æ‚¨åœ¨å¼ƒç‰Œé˜¶æ®µï¼Œæ‰‹ç‰Œä¸Šé™ä¸º5å¼ ã€‚</Text>
 				<Sign>80</Sign>
 				<Status>10</Status>
 				<Initiative>0</Initiative>
-			</½£Ï»>
-			<Ö¸¶¨ÇÕÄ½Õß>
-				<Text>ÔÚ¿ª¾Ö½×¶ÎÄúÈÎÒâÖ¸¶¨1Ãû½ÇÉ«×÷ÎªÄúµÄÇÕÄ½Õß¡£</Text>
+			</å‰‘åŒ£>
+			<æŒ‡å®šé’¦æ…•è€…>
+				<Text>åœ¨å¼€å±€é˜¶æ®µæ‚¨ä»»æ„æŒ‡å®š1åè§’è‰²ä½œä¸ºæ‚¨çš„é’¦æ…•è€…ã€‚</Text>
 				<Sign>80</Sign>
 				<Status>0</Status>
 				<Initiative>0</Initiative>
-			</Ö¸¶¨ÇÕÄ½Õß>
+			</æŒ‡å®šé’¦æ…•è€…>
 		</Skill>
-	</Ä½ÈÝ×ÏÓ¢>
+	</æ…•å®¹ç´«è‹±>
 	
-	<ÐþÏö>
-		<PictureName>0</PictureName>
+	<çŽ„éœ„>
+		<PictureName>Role_Card/xuanxiao.png</PictureName>
 	    <Sign>47</Sign>
 	    <Model>0</Model>
 		<HP>6</HP>
@@ -717,23 +717,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Äý±ù·ÙÑ×>
-				<Text>Ë®£¬»ðÊôÐÔµÄHPÉËº¦¶ÔÄúÎÞÐ§¡£</Text>
+			<å‡å†°ç„šç‚Ž>
+				<Text>æ°´ï¼Œç«å±žæ€§çš„HPä¼¤å®³å¯¹æ‚¨æ— æ•ˆã€‚</Text>
 				<Sign>81</Sign>
 				<Status>17</Status>
 				<Initiative>0</Initiative>
-			</Äý±ù·ÙÑ×>
-			<½á°Ý>
-				<Text>¿ª¾Ö½×¶Î£¬Ö¸¶¨Ò»Ãû³¡ÄÚ½ÇÉ«£¬Õû¾ÖÓÎÏ·ÖÐ£¬Äú¶ÔÆäÖ§Ô®»ò·Á°­Ê±ÃüÖÐ¶îÍâ+1¡£</Text>
+			</å‡å†°ç„šç‚Ž>
+			<ç»“æ‹œ>
+				<Text>å¼€å±€é˜¶æ®µï¼ŒæŒ‡å®šä¸€ååœºå†…è§’è‰²ï¼Œæ•´å±€æ¸¸æˆä¸­ï¼Œæ‚¨å¯¹å…¶æ”¯æ´æˆ–å¦¨ç¢æ—¶å‘½ä¸­é¢å¤–+1ã€‚</Text>
 				<Sign>82</Sign>
 				<Status>0</Status>
 				<Initiative>0</Initiative>
-			</½á°Ý>
+			</ç»“æ‹œ>
 		</Skill>
-	</ÐþÏö>
+	</çŽ„éœ„>
 	
-	<ÁúÓÄ>
-	    <PictureName>0</PictureName>
+	<é¾™å¹½>
+	    <PictureName>Role_Card/longyou.png</PictureName>
 	    <Sign>48</Sign>
 	    <Model>1</Model>
 		<HP>6</HP>
@@ -747,23 +747,23 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 2>
-			<Ô½ÐÐÖ®Êõ>
-				<Text>ÓÉÄú´¥·¢Õ½¶·Ê±£¬Ö§Ô®ÕßÇ¿ÖÆÃüÖÐ¡£</Text>
+			<è¶Šè¡Œä¹‹æœ¯>
+				<Text>ç”±æ‚¨è§¦å‘æˆ˜æ–—æ—¶ï¼Œæ”¯æ´è€…å¼ºåˆ¶å‘½ä¸­ã€‚</Text>
 				<Sign>83</Sign>
 				<Status>6</Status>
 				<Initiative>0</Initiative>
-			</Ô½ÐÐÖ®Êõ>
-			<±íÏÖÓû>
-				<Text>Ã¿ÓÐÒ»¸öÅ®ÐÔ½ÇÉ«²ÎÕ½£¬ÄúÔÚ±¾´ÎÕ½¶·ÖÐÕ½Á¦¶îÍâ+1¡£</Text>
+			</è¶Šè¡Œä¹‹æœ¯>
+			<è¡¨çŽ°æ¬²>
+				<Text>æ¯æœ‰ä¸€ä¸ªå¥³æ€§è§’è‰²å‚æˆ˜ï¼Œæ‚¨åœ¨æœ¬æ¬¡æˆ˜æ–—ä¸­æˆ˜åŠ›é¢å¤–+1ã€‚</Text>
 				<Sign>84</Sign>
 				<Status>7</Status>
 				<Initiative>0</Initiative>
-			</±íÏÖÓû>
+			</è¡¨çŽ°æ¬²>
 		</Skill>
-	</ÁúÓÄ>
+	</é¾™å¹½>
 	
-	<Ð¡Âù>
-	    <PictureName>0</PictureName>
+	<å°è›®>
+	    <PictureName>Role_Card/xiaoman.png</PictureName>
 	    <Sign>49</Sign>
 	    <Model>1</Model>
 		<HP>7</HP>
@@ -777,24 +777,24 @@
 		<Equip>1</Equip>
 		<Armor>1</Armor>
 		<Skill num = 3>
-			<ÎÞ·¨ÎÞÌì>
-				<Text>Äú¿ÉÒÔÔÚÈÎºÎÍæ¼ÒµÄ¼¼ÅÆ½×¶Î½áÊøºó£¬Ê¹ÓÃ¼¼ÅÆ¡£</Text>
+			<æ— æ³•æ— å¤©>
+				<Text>æ‚¨å¯ä»¥åœ¨ä»»ä½•çŽ©å®¶çš„æŠ€ç‰Œé˜¶æ®µç»“æŸåŽï¼Œä½¿ç”¨æŠ€ç‰Œã€‚</Text>
 				<Sign>85</Sign>
 				<Status>17</Status>
 				<Initiative>1</Initiative>
-			</ÎÞ·¨ÎÞÌì>
-			<»îÁ¦>
-				<Text>µ±Äú²ÎÕ½²¢³É¹¦ÃüÖÐÊ±£¬ÄúÔÚÕ½¶·¿ªÊ¼½×¶Î²¹1ÕÅÅÆ¡£</Text>
+			</æ— æ³•æ— å¤©>
+			<æ´»åŠ›>
+				<Text>å½“æ‚¨å‚æˆ˜å¹¶æˆåŠŸå‘½ä¸­æ—¶ï¼Œæ‚¨åœ¨æˆ˜æ–—å¼€å§‹é˜¶æ®µè¡¥1å¼ ç‰Œã€‚</Text>
 				<Sign>86</Sign>
 				<Status>7</Status>
 				<Initiative>0</Initiative>
-			</»îÁ¦>
-			<Á¶Ò©>
-				<Text>Äú¿É¶ªÆú2ÕÅÊÖÅÆ£¬²¢ÁîÈÎÒâÍæ¼ÒÁ¢¿Ì²¹1ÕÅÅÆ¡£´Ë¼¼ÄÜ¿ÉÒÔÔÚÈÎÒâÊ±¼ä·¢¶¯¡£</Text>
+			</æ´»åŠ›>
+			<ç‚¼è¯>
+				<Text>æ‚¨å¯ä¸¢å¼ƒ2å¼ æ‰‹ç‰Œï¼Œå¹¶ä»¤ä»»æ„çŽ©å®¶ç«‹åˆ»è¡¥1å¼ ç‰Œã€‚æ­¤æŠ€èƒ½å¯ä»¥åœ¨ä»»æ„æ—¶é—´å‘åŠ¨ã€‚</Text>
 				<Sign>87</Sign>
 				<Status>17</Status>
 				<Initiative>1</Initiative>
-			</Á¶Ò©>
+			</ç‚¼è¯>
 		</Skill>
-	</Ð¡Âù>
+	</å°è›®>
 </NPC>

@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#define CARDBKPATH  "Equip_Card/caihuan.jpg"
+#define CARDBKPATH  "Equip_Card/caihuan.png"
 
 #define SET_GET_FUNC(__type__,__name__,__func__) protected:__type__ m_##__name__;\
 											public:const __type__ &get##__func__()const {return m_##__name__;}\
@@ -73,5 +73,11 @@ enum class STATUS{openning,	//开局			0
 		show_card,			//出牌			16
 		whenever,			//任何时候		17
 		fight_round_begin,	//战斗（翻取怪牌前）18
+};
+
+enum class GameType
+{
+	Two2Two,
+	Three2Three,
 };
 #endif

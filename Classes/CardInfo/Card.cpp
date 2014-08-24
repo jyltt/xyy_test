@@ -66,6 +66,8 @@ void CardNpc::setSkill(int skill_id)
 
 int CardNpc::getSkill(int skill_num)
 {
+	if (skill_num >= m_SkillList.size())
+		return -1;
 	return m_SkillList[skill_num];
 }
 

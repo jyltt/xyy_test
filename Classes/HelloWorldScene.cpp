@@ -22,7 +22,8 @@ Scene* HelloWorld::createScene()
 bool HelloWorld::init()
 {
 	auto start = cocos2d::MenuItemFont::create("start", CC_CALLBACK_1(HelloWorld::menuStartCallback,this));
-	auto menu = cocos2d::Menu::create(start, nullptr);
+	auto menu = cocos2d::Menu::create();
+	menu->addChild(start);
 	addChild(menu);
     return true;
 }

@@ -7,7 +7,7 @@
   <JsonFileName>NewUi.json</JsonFileName>
   <JsonFolder>F:\about_C++\cocos2d\sdk\cocos2d-3.0-projecks\newGame\NewUi\Json</JsonFolder>
   <JsonList>
-    <string>NewUi_1.json</string>
+    <string>gameScene.json</string>
   </JsonList>
   <CanvasSize>
     <Width>1280</Width>
@@ -19,5 +19,5 @@
   <imageFileList />
   <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>NewUi_1.json</CurrentUIJson>
+  <CurrentUIJson>gameScene.json</CurrentUIJson>
 </UIProject>

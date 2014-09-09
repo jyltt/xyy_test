@@ -1,17 +1,15 @@
 #include "GameScene.h"
 #include "CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "CardInfo/ManagerCardEvent.h"
-#include "CardInfo/ManagerCardHand.h"
-#include "CardInfo/ManagerCardMonster.h"
-#include "CardInfo/ManagerCardNpc.h"
-#include "CardInfo/ManagerSkill.h"
 
 using namespace cocos2d;
 using namespace cocostudio;
 using namespace ui;
 
-#include "CardInfo/Card.h"
+#include "PlayerList.h"
+#include "CardInfo/ManagerCardNpc.h"
+#include "CardInfo/ManagerCardHand.h"
+#include "CardInfo/ManagerCardMonster.h"
 
 cocos2d::Scene *GameScene::createScene()
 {
@@ -35,6 +33,7 @@ bool GameScene::init()
 		m_PlayerHit[0] = (Text *)playerlayer->getChildByName("hit");
 		m_PlayerEquip[0] = (Text *)playerlayer->getChildByName("equip");
 		m_PlayerPetList[0] = (ListView*)playerlayer->getChildByName("petview");
+		m_PlayerPic[0] = (ImageView*)playerlayer->getChildByName("npccard");
 		m_PlayerCardList = (ListView*)playerlayer->getChildByName("cardview");
 	}
 
@@ -47,6 +46,7 @@ bool GameScene::init()
 		m_PlayerHit[1] = (Text *)player1layer->getChildByName("hit");
 		m_PlayerEquip[1] = (Text *)player1layer->getChildByName("equip");
 		m_PlayerPetList[1] = (ListView*)player1layer->getChildByName("petview");
+		m_PlayerPic[1] = (ImageView*)player1layer->getChildByName("npccard");
 	}
 
 	auto player2layer = (Widget*)layer->getChildByName("player2");
@@ -58,6 +58,7 @@ bool GameScene::init()
 		m_PlayerHit[2] = (Text *)player2layer->getChildByName("hit");
 		m_PlayerEquip[2] = (Text *)player2layer->getChildByName("equip");
 		m_PlayerPetList[2] = (ListView*)player2layer->getChildByName("petview");
+		m_PlayerPic[2] = (ImageView*)player2layer->getChildByName("npccard");
 	}
 
 
@@ -70,6 +71,7 @@ bool GameScene::init()
 		m_PlayerHit[3] = (Text *)player3layer->getChildByName("hit");
 		m_PlayerEquip[3] = (Text *)player3layer->getChildByName("equip");
 		m_PlayerPetList[3] = (ListView*)player3layer->getChildByName("petview");
+		m_PlayerPic[3] = (ImageView*)player3layer->getChildByName("npccard");
 	}
 	
 	m_PetExample = (Widget*)layer->getChildByName("pet_example");
@@ -80,6 +82,7 @@ bool GameScene::init()
 	for (int i = 0; i < 4;i++)
 	{
 		updatePetList(i);
+		updatePlayerData(i);
 	}
 	return true;
 }
@@ -98,40 +101,38 @@ void GameScene::updatePetList(int id)
 	}
 	else
 	{
+		int i = 0;
 		for (auto iter:m_PlayerPetList[id]->getItems())
 		{
 			auto pic = (ImageView*)iter->getChildByName("attrpic");
-			//pic->loadTexture(PETPIC);
+			auto player = PlayerList::getSingleton().getPlayerfromSign(id);
+			auto monster = CardMonsterManager::getSingleton().findCard(player->getPetCardID()[i]);
+			pic->loadTexture(monster->getPicturePath());
 			auto text = (Text*)iter->getChildByName("peiname");
-			//text->setText(PETNAME);
-			//iter->setUserData(PETDATA);
+			text->setText(monster->getName());
+			iter->setUserData(monster);
 		}
 	}
 }
 
 void GameScene::updatePlayerData(int id)
 {
-	//获取对应玩家对象
-	switch (id)
-	{
-	case 0:
-		break;
-	case 1:
-		break;
-	case 2:
-		break;
-	case 3:
-		break;
-	default:
-		return;
-	}
-	//m_PlayerName[id]->setText();
-	//m_PlayerBlood[id]->setText();
-	//m_PlayerAttack[id]->setText();
-	//m_PlayerHit[id]->setText();
-	//m_PlayerEquip[id]->setText();
-	//m_PlayerArmor[id]->setText();
-	//m_PlayerCardNum[id]->setText();
+	auto player = PlayerList::getSingleton().getPlayerfromSign(id);
+	m_PlayerName[id]->setText(player->getNpcCard()->getName());
+	m_PlayerPic[id]->loadTexture(player->getNpcCard()->getPicturePath());
+	char text[100] = "";
+	sprintf(text, "%d", player->getHP());
+	m_PlayerBlood[id]->setText(text);
+	sprintf(text, "%d", player->getAttack());
+	m_PlayerAttack[id]->setText(text);
+	sprintf(text, "%d", player->getHit());
+	m_PlayerHit[id]->setText(text);
+	//sprintf(text, "%d", player->getEquipCardID()[0]);
+	//m_PlayerEquip[id]->setText(text);
+	//sprintf(text, "%d", player->getArmorCardID()[0]);
+	//m_PlayerArmor[id]->setText(text);
+	//sprintf(text, "%d", player->getCardNum());
+	//m_PlayerCardNum[id]->setText(text);
 }
 
 void GameScene::updateCardList()

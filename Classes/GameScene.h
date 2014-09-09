@@ -26,6 +26,7 @@ private:
 	cocos2d::ui::Widget *m_CardChoose;
 	cocos2d::ui::ListView *m_PlayerCardList;
 	cocos2d::ui::ListView *m_PlayerPetList[4];
+	cocos2d::ui::ImageView *m_PlayerPic[4];
 	cocos2d::ui::Text *m_PlayerName[4];
 	cocos2d::ui::Text *m_PlayerBlood[4];
 	cocos2d::ui::Text *m_PlayerAttack[4];

@@ -1,6 +1,12 @@
 #include "HelloWorldScene.h"
 #include "GameScene.h"
 
+#include "CardInfo/ManagerCardHand.h"
+#include "CardInfo/ManagerCardMonster.h"
+#include "CardInfo/ManagerCardNpc.h"
+#include "cardInfo/ManagerSkill.h"
+#include "PlayerList.h"
+
 USING_NS_CC;
 
 Scene* HelloWorld::createScene()
@@ -25,6 +31,15 @@ bool HelloWorld::init()
 	auto menu = cocos2d::Menu::create();
 	menu->addChild(start);
 	addChild(menu);
+
+
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(1,24));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(2,28));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(3,27));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(1,25));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(4,28));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(5,29));
+	PlayerList::getSingleton().joinPlayer(new NpcPlayer(1,25));
     return true;
 }
 

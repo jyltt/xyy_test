@@ -10,6 +10,7 @@ class GameScene :
 	public cocos2d::Layer
 {
 public:
+	GameScene();
 	static cocos2d::Scene *createScene();
 	virtual bool init() override;
 	CREATE_FUNC(GameScene);
@@ -35,6 +36,7 @@ private:
 	cocos2d::ui::Text *m_PlayerArmor[4];
 	cocos2d::ui::Text *m_PlayerCardNum[4];
 	cocos2d::ui::Text *m_Describe;
-
+private:
+	int m_playerID;
 };
 #endif

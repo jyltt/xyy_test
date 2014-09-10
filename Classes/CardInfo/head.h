@@ -23,14 +23,14 @@
 
 #define SET_GET_FUNC_N(__type__,__name__,__num__,__func__) \
 	protected:__type__ m_##__name__[__num__];\
-	public:__type__ *get##__func__(){return m_##__name__;}\
+	public:const __type__ *get##__func__()const {return m_##__name__;}\
 	public:void set##__func__(const __type__ *var){strcpy(m_##__name__,var);}
 
 #define SET_FUNC_N(__type__,__name__,__num__,__func__) protected:__type__ m_##__name__[__num__];\
 										public:void set##__func__(const __type__ &var){strcpy(m_##__name__,var);}
 
 #define GET_FUNC_N(__type__,__name__,__num__,__func__) protected:__type__ m_##__name__[__num__];\
-										public:__type__ *get##__func__(){return m_##__name__;}
+										public:const __type__ *get##__func__()const {return m_##__name__;}
 
 #define SET_GET_N(__type__,__name__,__num__) SET_GET_FUNC_N(__type__,__name__,__num__,__name__)
 

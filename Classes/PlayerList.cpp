@@ -34,3 +34,13 @@ void PlayerList::leavePlayer(NpcPlayer *player)
             m_player.erase(m_player.begin() + i);
     }
 }
+
+NpcPlayer* PlayerList::getPlayerFromID(int playerID)
+{
+	for (auto i : m_player)
+	{
+		if (playerID == i->getPlayerID())
+			return i;
+	}
+	return nullptr;
+}

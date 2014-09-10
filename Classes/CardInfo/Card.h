@@ -13,7 +13,7 @@ public:
 	GET(CARDTYPE, CardTpye);
 	SET_GET(int , ID);
 	SET_GET_N(char , Name , 20);
-	SET_GET_N(char , PicturePath,30);
+	SET_GET_N(char , PicturePath,50);
 	SET_GET(MODEL , Model);
 };
 

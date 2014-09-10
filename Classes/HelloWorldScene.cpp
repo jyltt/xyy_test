@@ -6,6 +6,7 @@
 #include "CardInfo/ManagerCardNpc.h"
 #include "cardInfo/ManagerSkill.h"
 #include "PlayerList.h"
+#include "Player.h"
 
 USING_NS_CC;
 
@@ -32,8 +33,9 @@ bool HelloWorld::init()
 	menu->addChild(start);
 	addChild(menu);
 
-
-	PlayerList::getSingleton().joinPlayer(new NpcPlayer(1,24));
+	auto player = new Player(1, 24);
+	player->pushHandCard(HandCardManager::getSingleton().getOne());
+	PlayerList::getSingleton().joinPlayer(player);
 	PlayerList::getSingleton().joinPlayer(new NpcPlayer(2,28));
 	PlayerList::getSingleton().joinPlayer(new NpcPlayer(3,27));
 	PlayerList::getSingleton().joinPlayer(new NpcPlayer(1,25));

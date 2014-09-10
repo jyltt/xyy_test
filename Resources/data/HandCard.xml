@@ -1,380 +1,404 @@
 <HandCard>
-	<ħ����߸>
+	<魔刀天吒>
+	    <PictureName>Equip_Card/modaotianzha.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>0</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+2</Text>
+			<一般>
+				<Text>战力+2</Text>
 				<Sign>0</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</ħ����߸>
-	<ħ��>
+	</魔刀天吒>
+	<魔剑>
+	    <PictureName>Equip_Card/mojian.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>1</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+2</Text>
+			<一般>
+				<Text>战力+2</Text>
 				<Sign>1</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>�䵱�����ļ��ƽ׶Σ����Է���ħ�����Ƿ�װ�����ɣ���֮�����������ơ�</Text>
+			</一般>
+			<爆发>
+				<Text>典当：您的技牌阶段，可以放弃魔剑（是否装备均可），之后您补两张牌。</Text>
 				<Sign>2</Sign>
 				<Status>3</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</ħ��>
-	<�޳���>
+	</魔剑>
+	<无尘剑>
+	    <PictureName>Equip_Card/wuchenjian.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>2</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+1 ����+1</Text>
+			<一般>
+				<Text>战力+1 命中+1</Text>
 				<Sign>3</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</�޳���>
-	<������>
+	</无尘剑>
+	<天蛇杖>
+	    <PictureName>Equip_Card/tianshezhang.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>3</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+1</Text>
+			<一般>
+				<Text>战力+1</Text>
 				<Sign>4</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>װ�������ȵĽ�ɫ�����HP�õ��ظ�����Ľ�߳��⣩��HP�ظ�������+1.</Text>
+			</一般>
+			<爆发>
+				<Text>装备天蛇杖的角色，如果HP得到回复（倾慕者除外），HP回复量额外+1.</Text>
 				<Sign>5</Sign>
 				<Status>15</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</������>
-	<�ʻ�>
+	</天蛇杖>
+	<彩环>
+	    <PictureName>Equip_Card/caihuan.png</PictureName>
 		<Model>1</Model>
 		<Type>0</Type>
 		<Sign>4</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>����+2</Text>
+			<一般>
+				<Text>命中+2</Text>
 				<Sign>6</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</�ʻ�>
-	<Ǭ������>
+	</彩环>
+	<乾坤道袍>
+	    <PictureName>Armor_Card/qiankundaopao.png</PictureName>
 		<Model>0</Model>
 		<Type>1</Type>
 		<Sign>5</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+1</Text>
+			<一般>
+				<Text>战力+1</Text>
 				<Sign>7</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>װ���������߼��Ƶ��µ�HP�˺���</Text>
+			</一般>
+			<爆发>
+				<Text>装备后，您免疫技牌导致的HP伤害。</Text>
 				<Sign>8</Sign>
 				<Status>14</Status>
 				<Initiative>0</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</Ǭ������>
-	<����ս��>
+	</乾坤道袍>
+	<龙魂战铠>
+	    <PictureName>Armor_Card/nonghunzhankai.png</PictureName>
 		<Model>0</Model>
 		<Type>1</Type>
 		<Sign>6</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>װ�������յ��κ��˺�����Ľ���⣩��HP��ʧ����1�㡣</Text>
+			<一般>
+				<Text>装备后，您收到任何伤害（倾慕除外），HP损失降低1点。</Text>
 				<Sign>9</Sign>
 				<Status>14</Status>
 				<Initiative>0</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</����ս��>
-	<��ۼ���>
+	</龙魂战铠>
+	<天帝祭服>
+	    <PictureName>Armor_Card/tiandijifu.png</PictureName>
 		<Model>0</Model>
 		<Type>1</Type>
 		<Sign>7</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>װ�������ɽ��κ����Ƶ�������ʹ�á�</Text>
+			<一般>
+				<Text>装备后，您可将任何手牌当作隐蛊使用。</Text>
 				<Sign>10</Sign>
 				<Status>14</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</��ۼ���>
-	<̤��ѥ>
+	</天帝祭服>
+	<踏云靴>
+	    <PictureName>Armor_Card/tayunxue.png</PictureName>
 		<Model>1</Model>
 		<Type>1</Type>
 		<Sign>8</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>����+1</Text>
+			<一般>
+				<Text>命中+1</Text>
 				<Sign>11</Sign>
 				<Status>3</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>������װ�����յ��˺�ʱ����Ľ���⣩�����ɶ���̤��ѥ����������˺�������HP�ظ�1�㡣</Text>
+			</一般>
+			<爆发>
+				<Text>爆发：装备后收到伤害时（倾慕除外），您可丢弃踏云靴，免除本次伤害，并令HP回复1点。</Text>
 				<Sign>12</Sign>
 				<Status>14</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</̤��ѥ>
-	<���ϼ��>
+	</踏云靴>
+	<五彩霞衣>
+	    <PictureName>Armor_Card/wucaixiayi.png</PictureName>
 		<Model>0</Model>
 		<Type>1</Type>
 		<Sign>9</Sign>
 		<Number>1</Number>
 		<Skill>
-			<һ��>
-				<Text>ս��+1</Text>
+			<一般>
+				<Text>战力+1</Text>
 				<Sign>13</Sign>
 				<Status>3</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>������װ������HPΪ0ʱ���ɶ������ϼ�£�����ָ�2��HP��</Text>
+			</一般>
+			<爆发>
+				<Text>爆发：装备后，您HP为0时，可丢弃五彩霞衣，复活并恢复2点HP。</Text>
 				<Sign>14</Sign>
 				<Status>13</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</���ϼ��>
-	<�����>
+	</五彩霞衣>
+	<鼠儿果>
+	    <PictureName>Skill_Card/shuerguo.png</PictureName>
 		<Model>0</Model>
 		<Type>2</Type>
 		<Sign>10</Sign>
 		<Number>3</Number>
 		<Skill>
-			<һ��>
-				<Text>��ָ��һ�˲�2�����ơ�</Text>
+			<一般>
+				<Text>您指定一人补2张手牌。</Text>
 				<Sign>15</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</�����>
-	<�������>
+	</鼠儿果>
+	<窥测天机>
+	    <PictureName>Skill_Card/kuicetianji.png</PictureName>
 		<Model>0</Model>
 		<Type>2</Type>
 		<Sign>11</Sign>
 		<Number>2</Number>
 		<Skill>
-			<һ��>
-				<Text>���ӹ����������淭ȡ���Ź��ƣ��Լ����Ӻ�Ż�ԭλ�������ı����֮���˳��</Text>
+			<一般>
+				<Text>您从怪物牌组上面翻取两张怪牌，自己检视后放回原位，允许改变二者之间的顺序。</Text>
 				<Sign>16</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</�������>
-	<͵��>
+	</窥测天机>
+	<偷盗>
+	    <PictureName>Skill_Card/toudao.png</PictureName>
 		<Model>0</Model>
 		<Type>2</Type>
 		<Sign>12</Sign>
 		<Number>2</Number>
 		<Skill>
-			<һ��>
-				<Text>����ȡ������ҵ�һ�����ơ�</Text>
+			<一般>
+				<Text>您抽取任意玩家的一张手牌。</Text>
 				<Sign>17</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</͵��>
-	<ͭǮ��>
+	</偷盗>
+	<铜钱镖>
+	    <PictureName>Skill_Card/tongqianbiao.png</PictureName>
 		<Model>0</Model>
 		<Type>2</Type>
 		<Sign>13</Sign>
 		<Number>3</Number>
 		<Skill>
-			<һ��>
-				<Text>����������ҵ�һ�����ƻ�װ����</Text>
+			<一般>
+				<Text>弃掉任意玩家的一张手牌或装备。</Text>
 				<Sign>18</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</ͭǮ��>
-	<������>
+	</铜钱镖>
+	<天雷破>
+	    <PictureName>Skill_Card/tianleipo.png</PictureName>
 		<Model>1</Model>
 		<Type>2</Type>
 		<Sign>14</Sign>
 		<Number>3</Number>
 		<Skill>
-			<һ��>
-				<Text>��ָ��һ�����HP-2�����˺�Ϊ�����ԣ���</Text>
+			<一般>
+				<Text>您指定一名玩家HP-2（此伤害为雷属性）。</Text>
 				<Sign>19</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</������>
-	<������Ԫ>
+	</天雷破>
+	<五气朝元>
+	    <PictureName>Skill_Card/wuqichaoyuan.png</PictureName>
 		<Model>0</Model>
 		<Type>2</Type>
 		<Sign>15</Sign>
 		<Number>2</Number>
 		<Skill>
-			<һ��>
-				<Text>�ҷ�ȫ��HP+1��</Text>
+			<一般>
+				<Text>我方全体HP+1。</Text>
 				<Sign>20</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>�䵱�����ƽ׶������������ƣ���1���ơ�</Text>
+			</一般>
+			<爆发>
+				<Text>典当：技牌阶段您可弃掉此牌，补1张牌。</Text>
 				<Sign>21</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</������Ԫ>
-	<����ѿ�>
+	</五气朝元>
+	<金蝉脱壳>
+	    <PictureName>Fight_Card/jinchantuoqiao.png</PictureName>
 		<Model>1</Model>
 		<Type>3</Type>
 		<Sign>16</Sign>
 		<Number>2</Number>
 		<Skill>
-			<һ��>
-				<Text>��ս�߿�ʹ�ã���ʹδ�ɹ���ǿ�ƽ�������ս����ʤ��ʧ����������Ч��</Text>
+			<一般>
+				<Text>参战者可使用，即使未成功。强制结束本场战斗，胜利失败条件皆无效。</Text>
 				<Sign>22</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</����ѿ�>
-	<�����>
+	</金蝉脱壳>
+	<金蝉王>
+	    <PictureName>Fight_Card/jinchanwang.png</PictureName>
 		<Model>1</Model>
 		<Type>3</Type>
 		<Sign>17</Sign>
 		<Number>5</Number>
 		<Skill>
-			<һ��>
-				<Text>����ս��������ս��+3����ս�����вŻ���Ч��</Text>
+			<一般>
+				<Text>本场战斗中您的战力+3。参战并命中才会生效。</Text>
 				<Sign>23</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</�����>
-	<��������>
+	</金蝉王>
+	<天玄五音>
+	    <PictureName>Fight_Card/tianxuanwuyin.png</PictureName>
 		<Model>0</Model>
 		<Type>3</Type>
 		<Sign>18</Sign>
 		<Number>8</Number>
 		<Skill>
-			<һ��>
-				<Text>��ָ��һ������ս����ս��+2��δ��ս���ʹ�á�</Text>
+			<一般>
+				<Text>您指定一方本场战斗中战力+2。未参战亦可使用。</Text>
 				<Sign>24</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</��������>
-	<���ս��>
+	</天玄五音>
+	<天罡战气>
+	    <PictureName>Fight_Card/tiangangzhanqi.png</PictureName>
 		<Model>0</Model>
 		<Type>3</Type>
 		<Sign>19</Sign>
 		<Number>2</Number>
 		<Skill>
-			<һ��>
-				<Text>����ս������ս������װ��������ӱ�������ս�ơ���������ʱ���ӵ�ս����Ч����ս�����вŻ���Ч��</Text>
+			<一般>
+				<Text>本场战斗您的战力（含装备、宠物）加倍。但对战牌、爆发等临时增加的战力无效。参战并命中才回生效。</Text>
 				<Sign>25</Sign>
 				<Status>6</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</���ս��>
-	<���ľ�>
+	</天罡战气>
+	<冰心决>
+	    <PictureName>Special_Card/binxinjue.png</PictureName>
 		<Model>0</Model>
 		<Type>4</Type>
 		<Sign>20</Sign>
 		<Number>3</Number>
 		<Skill>
-			<һ��>
-				<Text>�������ʹ�ü��ơ�ս�ơ�������ʱ��������ǰ�������������Ч��</Text>
+			<一般>
+				<Text>任意玩家使用技牌、战牌、特殊牌时打出。可令当前打出的这张牌无效。</Text>
 				<Sign>26</Sign>
 				<Status>16</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</���ľ�>
-	<��ڤ����>
+	</冰心决>
+	<洞冥宝镜>
+	    <PictureName>Special_Card/dongmingbaojing.png</PictureName>
 		<Model>1</Model>
 		<Type>4</Type>
 		<Sign>21</Sign>
 		<Number>4</Number>
 		<Skill>
-			<һ��>
-				<Text>������Ҿ�����ȡ����ǰʹ�ã�ָ��һ����ҷ�ȡ���ƶѶ��ϵ�һ�ţ����Ӻ�Ż�ԭ����</Text>
+			<一般>
+				<Text>任意玩家决定翻取怪牌前使用，指定一名玩家翻取怪牌堆顶上的一张，检视后放回原处。</Text>
 				<Sign>27</Sign>
 				<Status>5</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</��ڤ����>
-	<����>
+	</洞冥宝镜>
+	<隐蛊>
+	    <PictureName>Special_Card/yingu.png</PictureName>
 		<Model>0</Model>
 		<Type>4</Type>
 		<Sign>22</Sign>
 		<Number>4</Number>
 		<Skill>
-			<һ��>
-				<Text>����һ�����Լ��ܵ���HP�˺�����Ľ���⣩��</Text>
+			<一般>
+				<Text>抵消一次您自己受到的HP伤害（倾慕除外）。</Text>
 				<Sign>28</Sign>
 				<Status>14</Status>
 				<Initiative>1</Initiative>
-			</һ��>
+			</一般>
 		</Skill>
-	</����>
-	<����ɵ�>
+	</隐蛊>
+	<灵葫仙丹>
+	    <PictureName>Special_Card/linghuxiandan.png</PictureName>
 		<Model>0</Model>
 		<Type>4</Type>
 		<Sign>23</Sign>
 		<Number>3</Number>
 		<Skill>
-			<һ��>
-				<Text>���ƽ׶�ʹ�ã����Լ���HP+2.</Text>
+			<一般>
+				<Text>技牌阶段使用，您自己的HP+2.</Text>
 				<Sign>29</Sign>
 				<Status>4</Status>
 				<Initiative>1</Initiative>
-			</һ��>
-			<����>
-				<Text>�������HPΪ0ʱʹ�ã������临��ظ�2��HP��</Text>
+			</一般>
+			<爆发>
+				<Text>当有玩家HP为0时使用，可令其复活并回复2点HP。</Text>
 				<Sign>30</Sign>
 				<Status>13</Status>
 				<Initiative>1</Initiative>
-			</����>
+			</爆发>
 		</Skill>
-	</����ɵ�>
+	</灵葫仙丹>
 </HandCard>

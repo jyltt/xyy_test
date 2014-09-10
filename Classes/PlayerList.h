@@ -16,7 +16,7 @@ public :
     void setPlayerNum(int num){ m_PlayerNum = num; }
     bool joinPlayer(NpcPlayer* player);
     void leavePlayer(NpcPlayer* player);
-    void getPlayerFromID(int playerID);
+    NpcPlayer* getPlayerFromID(int playerID);
     NpcPlayer* getPlayerfromSign(int sign) 
     {
         if(sign < m_player.size())

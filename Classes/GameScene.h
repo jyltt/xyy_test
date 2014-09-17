@@ -2,7 +2,6 @@
 #define GAMESCENE_H_
 
 #include "cocos2d.h"
-#include "GameScene.h"
 #include "CocoStudio.h"
 #include "ui/CocosGUI.h"
 
@@ -20,8 +19,16 @@ public:
 	void updateCardList();
 	void updateDescribe(const char* describe);
 
+	void onBtnNextState(Ref*, cocos2d::ui::TouchEventType);
+	void onBtnPushCard(Ref*, cocos2d::ui::TouchEventType);
 	void onChoseCardButtonDown(cocos2d::Ref *item, cocos2d::ui::TouchEventType type);
 private:
+	const cocos2d::Point &getChildPosition(cocos2d::ui::Widget* layer, const char* name)
+	{
+		auto child = layer->getChildByName(name);
+		child->setVisible(false);
+		return child->getPosition();
+	}
 	cocos2d::ui::Widget *m_PetExample;
 	cocos2d::ui::Widget *m_CardExample;
 	cocos2d::ui::Widget *m_CardChoose;
@@ -36,6 +43,8 @@ private:
 	cocos2d::ui::Text *m_PlayerArmor[4];
 	cocos2d::ui::Text *m_PlayerCardNum[4];
 	cocos2d::ui::Text *m_Describe;
+	cocos2d::ui::Button *m_BtnNextCard;
+	cocos2d::ui::Button *m_BtnPushCard;
 private:
 	int m_playerID;
 };

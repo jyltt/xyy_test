@@ -1,4 +1,5 @@
 #include "GameScene.h"
+#include "ChoseCardDlg.h"
 #include "CocoStudio.h"
 #include "ui/CocosGUI.h"
 
@@ -27,7 +28,9 @@ cocos2d::Scene *GameScene::createScene()
 
 bool GameScene::init()
 {
-	auto layer = GUIReader::getInstance()->widgetFromJsonFile("gameScene.json");
+	if (!Layer::init())
+		return false;
+	auto layer = GUIReader::getInstance()->widgetFromJsonFile("gameScene.ExportJson");
 	addChild(layer);
 	
 	auto playerlayer = (Widget*)layer->getChildByName("player");
@@ -41,47 +44,105 @@ bool GameScene::init()
 		m_PlayerArmor[0] = (Text *)playerlayer->getChildByName("armor");
 		m_PlayerPetList[0] = (ListView*)playerlayer->getChildByName("petview");
 		m_PlayerPic[0] = (ImageView*)playerlayer->getChildByName("npccard");
+		m_PlayerCardNum[0] = (Text*)playerlayer->getChildByName("cardnum");
 		m_PlayerCardList = (ListView*)playerlayer->getChildByName("cardview");
 	}
 
 	auto player1layer = (Widget*)layer->getChildByName("player1");
 	if (player1layer)
 	{
-		m_PlayerName[1] = (Text *)player1layer->getChildByName("npcname");
-		m_PlayerBlood[1] = (Text *)player1layer->getChildByName("blood");
-		m_PlayerAttack[1] = (Text *)player1layer->getChildByName("attack");
-		m_PlayerHit[1] = (Text *)player1layer->getChildByName("hit");
-		m_PlayerEquip[1] = (Text *)player1layer->getChildByName("equip");
-		m_PlayerArmor[1] = (Text *)player1layer->getChildByName("armor");
-		m_PlayerPetList[1] = (ListView*)player1layer->getChildByName("petview");
-		m_PlayerPic[1] = (ImageView*)player1layer->getChildByName("npccard");
+		m_PlayerName[1] = (Text*)m_PlayerName[0]->clone();
+		m_PlayerName[1]->setPosition(getChildPosition(player1layer,"npcname"));
+		m_PlayerBlood[1] = (Text *)m_PlayerBlood[0]->clone();
+		m_PlayerBlood[1]->setPosition(getChildPosition(player1layer, "blood"));
+		m_PlayerAttack[1] = (Text *)m_PlayerAttack[0]->clone();
+		m_PlayerAttack[1]->setPosition(getChildPosition(player1layer, "attack"));
+		m_PlayerHit[1] = (Text *)m_PlayerHit[0]->clone();
+		m_PlayerHit[1]->setPosition(getChildPosition(player1layer, "hit"));
+		m_PlayerEquip[1] = (Text *)m_PlayerEquip[0]->clone();
+		m_PlayerEquip[1]->setPosition(getChildPosition(player1layer, "equip"));
+		m_PlayerArmor[1] = (Text *)m_PlayerArmor[0]->clone();
+		m_PlayerArmor[1]->setPosition(getChildPosition(player1layer, "armor"));
+		m_PlayerPetList[1] = (ListView*)m_PlayerPetList[0]->clone();
+		m_PlayerPetList[1]->setPosition(getChildPosition(player1layer, "petview"));
+		m_PlayerPic[1] = (ImageView*)m_PlayerPic[0]->clone();
+		m_PlayerPic[1]->setPosition(getChildPosition(player1layer, "npccard"));
+		m_PlayerCardNum[1] = (Text*)m_PlayerCardNum[0]->clone();
+		m_PlayerCardNum[1]->setPosition(getChildPosition(player1layer, "cardnum"));
+		player1layer->addChild(m_PlayerName[1]);
+		player1layer->addChild(m_PlayerBlood[1]);
+		player1layer->addChild(m_PlayerAttack[1]);
+		player1layer->addChild(m_PlayerHit[1]);
+		player1layer->addChild(m_PlayerEquip[1]);
+		player1layer->addChild(m_PlayerArmor[1]);
+		player1layer->addChild(m_PlayerPetList[1]);
+		player1layer->addChild(m_PlayerPic[1]);
+		player1layer->addChild(m_PlayerCardNum[1]);
 	}
 
 	auto player2layer = (Widget*)layer->getChildByName("player2");
 	if (player2layer)
 	{
-		m_PlayerName[2] = (Text *)player2layer->getChildByName("npcname");
-		m_PlayerBlood[2] = (Text *)player2layer->getChildByName("blood");
-		m_PlayerAttack[2] = (Text *)player2layer->getChildByName("attack");
-		m_PlayerHit[2] = (Text *)player2layer->getChildByName("hit");
-		m_PlayerEquip[2] = (Text *)player2layer->getChildByName("equip");
-		m_PlayerArmor[2] = (Text *)player2layer->getChildByName("armor");
-		m_PlayerPetList[2] = (ListView*)player2layer->getChildByName("petview");
-		m_PlayerPic[2] = (ImageView*)player2layer->getChildByName("npccard");
+		m_PlayerName[2] = (Text*)m_PlayerName[0]->clone();
+		m_PlayerName[2]->setPosition(getChildPosition(player2layer,"npcname"));
+		m_PlayerBlood[2] = (Text *)m_PlayerBlood[0]->clone();
+		m_PlayerBlood[2]->setPosition(getChildPosition(player2layer, "blood"));
+		m_PlayerAttack[2] = (Text *)m_PlayerAttack[0]->clone();
+		m_PlayerAttack[2]->setPosition(getChildPosition(player2layer, "attack"));
+		m_PlayerHit[2] = (Text *)m_PlayerHit[0]->clone();
+		m_PlayerHit[2]->setPosition(getChildPosition(player2layer, "hit"));
+		m_PlayerEquip[2] = (Text *)m_PlayerEquip[0]->clone();
+		m_PlayerEquip[2]->setPosition(getChildPosition(player2layer, "equip"));
+		m_PlayerArmor[2] = (Text *)m_PlayerArmor[0]->clone();
+		m_PlayerArmor[2]->setPosition(getChildPosition(player2layer, "armor"));
+		m_PlayerPetList[2] = (ListView*)m_PlayerPetList[0]->clone();
+		m_PlayerPetList[2]->setPosition(getChildPosition(player2layer, "petview"));
+		m_PlayerPic[2] = (ImageView*)m_PlayerPic[0]->clone();
+		m_PlayerPic[2]->setPosition(getChildPosition(player2layer, "npccard"));
+		m_PlayerCardNum[2] = (Text*)m_PlayerCardNum[0]->clone();
+		m_PlayerCardNum[2]->setPosition(getChildPosition(player2layer, "cardnum"));
+		player2layer->addChild(m_PlayerName[2]);
+		player2layer->addChild(m_PlayerBlood[2]);
+		player2layer->addChild(m_PlayerAttack[2]);
+		player2layer->addChild(m_PlayerHit[2]);
+		player2layer->addChild(m_PlayerEquip[2]);
+		player2layer->addChild(m_PlayerArmor[2]);
+		player2layer->addChild(m_PlayerPetList[2]);
+		player2layer->addChild(m_PlayerPic[2]);
+		player2layer->addChild(m_PlayerCardNum[2]);
 	}
 
 
 	auto player3layer = (Widget*)layer->getChildByName("player3");
 	if (player3layer)
 	{
-		m_PlayerName[3] = (Text *)player3layer->getChildByName("npcname");
-		m_PlayerBlood[3] = (Text *)player3layer->getChildByName("blood");
-		m_PlayerAttack[3] = (Text *)player3layer->getChildByName("attack");
-		m_PlayerHit[3] = (Text *)player3layer->getChildByName("hit");
-		m_PlayerEquip[3] = (Text *)player3layer->getChildByName("equip");
-		m_PlayerArmor[3] = (Text *)player3layer->getChildByName("armor");
-		m_PlayerPetList[3] = (ListView*)player3layer->getChildByName("petview");
-		m_PlayerPic[3] = (ImageView*)player3layer->getChildByName("npccard");
+		m_PlayerName[3] = (Text*)m_PlayerName[0]->clone();
+		m_PlayerName[3]->setPosition(getChildPosition(player3layer,"npcname"));
+		m_PlayerBlood[3] = (Text *)m_PlayerBlood[0]->clone();
+		m_PlayerBlood[3]->setPosition(getChildPosition(player3layer, "blood"));
+		m_PlayerAttack[3] = (Text *)m_PlayerAttack[0]->clone();
+		m_PlayerAttack[3]->setPosition(getChildPosition(player3layer, "attack"));
+		m_PlayerHit[3] = (Text *)m_PlayerHit[0]->clone();
+		m_PlayerHit[3]->setPosition(getChildPosition(player3layer, "hit"));
+		m_PlayerEquip[3] = (Text *)m_PlayerEquip[0]->clone();
+		m_PlayerEquip[3]->setPosition(getChildPosition(player3layer, "equip"));
+		m_PlayerArmor[3] = (Text *)m_PlayerArmor[0]->clone();
+		m_PlayerArmor[3]->setPosition(getChildPosition(player3layer, "armor"));
+		m_PlayerPetList[3] = (ListView*)m_PlayerPetList[0]->clone();
+		m_PlayerPetList[3]->setPosition(getChildPosition(player3layer, "petview"));
+		m_PlayerPic[3] = (ImageView*)m_PlayerPic[0]->clone();
+		m_PlayerPic[3]->setPosition(getChildPosition(player3layer, "npccard"));
+		m_PlayerCardNum[3] = (Text*)m_PlayerCardNum[0]->clone();
+		m_PlayerCardNum[3]->setPosition(getChildPosition(player3layer, "cardnum"));
+		player3layer->addChild(m_PlayerName[3]);
+		player3layer->addChild(m_PlayerBlood[3]);
+		player3layer->addChild(m_PlayerAttack[3]);
+		player3layer->addChild(m_PlayerHit[3]);
+		player3layer->addChild(m_PlayerEquip[3]);
+		player3layer->addChild(m_PlayerArmor[3]);
+		player3layer->addChild(m_PlayerPetList[3]);
+		player3layer->addChild(m_PlayerPic[3]);
+		player3layer->addChild(m_PlayerCardNum[3]);	
 	}
 	
 	m_PetExample = (Widget*)layer->getChildByName("pet_example");
@@ -95,6 +156,11 @@ bool GameScene::init()
 		updatePlayerData(i);
 	}
 	updateCardList();
+
+	m_BtnNextCard = (Button*)layer->getChildByName("nextstate");
+	m_BtnNextCard->addTouchEventListener(this, toucheventselector(GameScene::onBtnNextState));
+	m_BtnPushCard = (Button*)layer->getChildByName("pushcard");
+	m_BtnPushCard->addTouchEventListener(this, toucheventselector(GameScene::onBtnPushCard));
 	return true;
 }
 
@@ -166,8 +232,8 @@ void GameScene::updatePlayerData(int id)
 		break;
 	}
 	m_PlayerArmor[id]->setText(text);
-	//sprintf(text, "%d", player->getCardNum());
-	//m_PlayerCardNum[id]->setText(text);
+	sprintf(text, "cardnum:%d", player->getCardNum());
+	m_PlayerCardNum[id]->setText(text);
 }
 
 void GameScene::updateCardList()
@@ -182,8 +248,27 @@ void GameScene::updateCardList()
 		carditem->setUserData(card);
 		carditem->setTouchEnabled(true);
 		carditem->addTouchEventListener(this, toucheventselector(GameScene::onChoseCardButtonDown));
+		carditem->setVisible(true);
 		m_PlayerCardList->pushBackCustomItem(carditem);
 	}
+}
+
+void GameScene::onBtnNextState(Ref* ref, TouchEventType type)
+{
+	if (type == TouchEventType::TOUCH_EVENT_ENDED)
+	{
+		auto layer = ChoseCardDlg::create();
+		layer->addCard(HandCardManager::getSingleton().getOne(),
+			HandCardManager::getSingleton().getOne(),
+			HandCardManager::getSingleton().getOne(),
+			HandCardManager::getSingleton().getOne());
+		addChild(layer);
+	}
+}
+
+void GameScene::onBtnPushCard(Ref* ref, TouchEventType type)
+{
+
 }
 
 void GameScene::onChoseCardButtonDown(Ref *item, TouchEventType type)

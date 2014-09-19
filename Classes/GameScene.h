@@ -4,6 +4,9 @@
 #include "cocos2d.h"
 #include "CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "CardInfo/head.h"
+
+class CardHand;
 
 class GameScene :
 	public cocos2d::Layer
@@ -23,6 +26,7 @@ public:
 	void onBtnPushCard(Ref*, cocos2d::ui::TouchEventType);
 	void onChoseCardButtonDown(cocos2d::Ref *item, cocos2d::ui::TouchEventType type);
 private:
+	void setPic(cocos2d::ui::ImageView* img,CardHand* card);
 	const cocos2d::Point &getChildPosition(cocos2d::ui::Widget* layer, const char* name)
 	{
 		auto child = layer->getChildByName(name);
@@ -47,5 +51,6 @@ private:
 	cocos2d::ui::Button *m_BtnPushCard;
 private:
 	int m_playerID;
+	STATUS m_nowState;
 };
 #endif

@@ -244,7 +244,7 @@ void GameScene::updateCardList()
 		auto card = HandCardManager::getSingleton().findCard(cardid);
 		auto carditem = m_CardExample->clone();
 		auto pic = (ImageView*)carditem->getChildByName("cardpic");
-		pic->loadTexture(card->getPicturePath());
+		setPic(pic, card);
 		carditem->setUserData(card);
 		carditem->setTouchEnabled(true);
 		carditem->addTouchEventListener(this, toucheventselector(GameScene::onChoseCardButtonDown));
@@ -253,15 +253,23 @@ void GameScene::updateCardList()
 	}
 }
 
+void GameScene::setPic(ImageView* pic,CardHand* card)
+{
+	if (m_playerID == PlayerList::getSingleton().getCurrentPlayer()->getPlayerID())
+		pic->loadTexture(card->getPicturePath());
+	else
+		pic->loadTexture(card->getPicturePath()); // TODO:
+}
+
 void GameScene::onBtnNextState(Ref* ref, TouchEventType type)
 {
 	if (type == TouchEventType::TOUCH_EVENT_ENDED)
 	{
 		auto layer = ChoseCardDlg::create();
-		layer->addCard(HandCardManager::getSingleton().getOne(),
-			HandCardManager::getSingleton().getOne(),
-			HandCardManager::getSingleton().getOne(),
-			HandCardManager::getSingleton().getOne());
+		layer->addHandCard(HandCardManager::getSingleton().getOne());
+		layer->addHandCard(HandCardManager::getSingleton().getOne());
+		layer->addHandCard(HandCardManager::getSingleton().getOne());
+		layer->addHandCard(HandCardManager::getSingleton().getOne());
 		addChild(layer);
 	}
 }

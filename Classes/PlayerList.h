@@ -9,10 +9,11 @@
 class PlayerList
 {
 	Singleton(PlayerList);
-public :
-    //PlayerList();
-    //virtual~PlayerList();
-    int getCurrentPlayerSign(){ return m_CurrentPlayerSign; }
+public:
+	//PlayerList();
+	//virtual~PlayerList();
+	int getCurrentPlayerSign(){ return m_CurrentPlayerSign; }
+	NpcPlayer* getCurrentPlayer(){ return m_player[m_CurrentPlayerSign]; }
     void setPlayerNum(int num){ m_PlayerNum = num; }
     bool joinPlayer(NpcPlayer* player);
     void leavePlayer(NpcPlayer* player);

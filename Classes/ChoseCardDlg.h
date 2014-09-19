@@ -11,9 +11,8 @@ class ChoseCardDlg:
 public:
 	CREATE_FUNC(ChoseCardDlg);
 	virtual bool init()override;
-	void addCard(int cardid1,int cardid2,int cardid3,int cardid4);
+	void addHandCard(int cardid);
 protected:
-	void addCard(int cardid);
 private:
 	void updateDescribe(const char* describe);
 	void onChoseCardButtonDown(cocos2d::Ref *ref, cocos2d::ui::TouchEventType type);
@@ -22,5 +21,6 @@ private:
 	cocos2d::ui::Widget *m_CardExample;
 	cocos2d::ui::Widget *m_ChoseCard;
 	cocos2d::ui::ListView *m_CardList;
+	cocos2d::ui::Button *m_btnSure;
 };
 #endif // !CHOSECARDDLG_H_

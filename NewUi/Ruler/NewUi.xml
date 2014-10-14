@@ -4,4 +4,12 @@
     <Project>gameScene</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>ChoseCard</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>NewUi_3</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

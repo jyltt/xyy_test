@@ -1,6 +1,6 @@
 <HandCard>
 	<魔刀天吒>
-	    <PictureName>Equip_Card/modaotianzha.png</PictureName>
+	    <PictureName>Arms_Card/modaotianzha.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>0</Sign>
@@ -15,7 +15,7 @@
 		</Skill>
 	</魔刀天吒>
 	<魔剑>
-	    <PictureName>Equip_Card/mojian.png</PictureName>
+	    <PictureName>Arms_Card/mojian.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>1</Sign>
@@ -36,7 +36,7 @@
 		</Skill>
 	</魔剑>
 	<无尘剑>
-	    <PictureName>Equip_Card/wuchenjian.png</PictureName>
+	    <PictureName>Arms_Card/wuchenjian.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>2</Sign>
@@ -51,7 +51,7 @@
 		</Skill>
 	</无尘剑>
 	<天蛇杖>
-	    <PictureName>Equip_Card/tianshezhang.png</PictureName>
+	    <PictureName>Arms_Card/tianshezhang.png</PictureName>
 		<Model>0</Model>
 		<Type>0</Type>
 		<Sign>3</Sign>
@@ -72,7 +72,7 @@
 		</Skill>
 	</天蛇杖>
 	<彩环>
-	    <PictureName>Equip_Card/caihuan.png</PictureName>
+	    <PictureName>Arms_Card/caihuan.png</PictureName>
 		<Model>1</Model>
 		<Type>0</Type>
 		<Sign>4</Sign>

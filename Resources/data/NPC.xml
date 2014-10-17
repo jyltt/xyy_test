@@ -13,7 +13,7 @@
 			<Npc>28</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<侠骨柔情>
@@ -43,7 +43,7 @@
 			<Npc>24</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>2</Equip>
+		<Arms>2</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<双剑>
@@ -73,7 +73,7 @@
 			<Npc>24</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>2</Equip>
+		<Arms>2</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<双剑>
@@ -111,7 +111,7 @@
 			<Npc>28</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<林家剑法>
@@ -138,7 +138,7 @@
 		<Hit>2</Hit>
 		<Gender>0</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<鬼灵精>
@@ -165,7 +165,7 @@
 		<Hit>1</Hit>
 		<Gender>1</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<御剑术>
@@ -195,7 +195,7 @@
 			<Npc>61</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<水魔兽合体>
@@ -226,7 +226,7 @@
 			<Npc>33</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<发挥不稳定>
@@ -256,7 +256,7 @@
 			<Npc>31</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<狡猾>
@@ -286,7 +286,7 @@
 			<Npc>31</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<仙霞五奇>
@@ -313,7 +313,7 @@
 		<Hit>2</Hit>
 		<Gender>1</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<辣手摧花>
@@ -340,7 +340,7 @@
 		<Hit>2</Hit>
 		<Gender>1</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<蓄势待发>
@@ -367,7 +367,7 @@
 		<Hit>4</Hit>
 		<Gender>0</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<追打>
@@ -403,7 +403,7 @@
 			<Npc>38</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<关爱>
@@ -430,7 +430,7 @@
 		<Hit>1</Hit>
 		<Gender>1</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<决斗>
@@ -467,7 +467,7 @@
 			<Npc>42</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<占卜>
@@ -497,7 +497,7 @@
 			<Npc>39</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<阵法>
@@ -527,7 +527,7 @@
 			<Npc1>42</Npc1>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<烹饪>
@@ -557,7 +557,7 @@
 			<Npc>41</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<饕餮>
@@ -594,7 +594,7 @@
 			<Npc>45</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<天河剑>
@@ -624,7 +624,7 @@
 			<Npc>43</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<劫富济贫>
@@ -654,7 +654,7 @@
 			<Npc>43</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<妖王>
@@ -681,7 +681,7 @@
 		<Hit>1</Hit>
 		<Gender>1</Gender>
 		<HandCard>5</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<赠剑>
@@ -714,7 +714,7 @@
 		<Hit>2</Hit>
 		<Gender>1</Gender>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<凝冰焚炎>
@@ -744,7 +744,7 @@
 			<Npc>49</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 2>
 			<越行之术>
@@ -774,7 +774,7 @@
 			<Npc>48</Npc>
 		</Adore>
 		<HandCard>3</HandCard>
-		<Equip>1</Equip>
+		<Arms>1</Arms>
 		<Armor>1</Armor>
 		<Skill num = 3>
 			<无法无天>

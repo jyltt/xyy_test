@@ -2,6 +2,8 @@
 #include "PlayerList.h"
 #include "NpcPlayer.h"
 
+#include "Sever/SMsgManager.h"
+
 MsgManager::MsgManager()
 {
 
@@ -14,7 +16,7 @@ MsgManager::~MsgManager()
 
 void MsgManager::sendMessage(BaseMsg *msg, int size)
 {
-
+	SMsgManager::getSingleton().recvMessgae(msg, size);
 }
 
 void MsgManager::recvMessgae(BaseMsg *msg, int size)
@@ -32,7 +34,6 @@ void MsgManager::recvMessgae(BaseMsg *msg, int size)
 		case GameMsg_S2C::GetHandCard_S2C:
 			GetHandCard((Game_GetHandCard_S2C*)msg);
 			break;
-
 		default:
 			break;
 		}

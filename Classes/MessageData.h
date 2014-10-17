@@ -8,13 +8,12 @@ enum class MsgType
 
 enum GameMsg_C2S		//Client to Sever
 {
-	GetHandCard_C2S,
 	EquipArms_C2S,
 	EquipArmor_C2S,
 	ChoseCard_C2S,
 	NextRound_C2S,
 	UsingHandCard_C2S,
-	GiveupHandCard_C2s,
+	GiveupHandCard_C2S,
 	UsingSpecialSkill_C2S,
 
 };
@@ -40,11 +39,7 @@ struct BaseMsg
 
 #define GAMEMSG(_msgname_) struct Game_##_msgname_:public BaseMsg
 
-GAMEMSG(GetHandCard_C2S)
-{
-	int playerid;
-};
-
+#pragma region Client to Sever
 GAMEMSG(EquipArms_C2S)
 {
 	int playerid;
@@ -52,9 +47,88 @@ GAMEMSG(EquipArms_C2S)
 	int equipPos;
 };
 
+GAMEMSG(EquipArmor_C2S)
+{
+	int playerid;
+	int cardid;
+	int equipPos;
+};
+
+GAMEMSG(ChoseCard_C2S)
+{
+	int playerid;
+	int cardid;
+};
+
+GAMEMSG(NextRound_C2S)
+{
+	int playerid;
+	int roundid;
+};
+
+GAMEMSG(UsingHandCard_C2S)
+{
+	int playerid;
+	int cardid;
+	int playerconst;
+	int *playerlist;
+};
+
+GAMEMSG(GiveupHandCard_C2S)
+{
+	int playerid;
+	int cardid;
+};
+
+GAMEMSG(UsingSpecialSkill_C2S)
+{
+	int playerid;
+	int cardid;
+	int playerconst;
+	int *playerlist;
+};
+#pragma endregion
+
+#pragma region Sever to Client
 GAMEMSG(GetHandCard_S2C)
 {
 	int playerid;
-	int handcardid;
+	int cardconst;
+	int *handcardid;
 };
+
+GAMEMSG(EquipArms_S2C)
+{
+	int playerid;
+	int cardid;
+	int equipPos;
+};
+
+GAMEMSG(EquipArmor_S2C)
+{
+	int playerid;
+	int cardid;
+	int equipPos;
+};
+
+GAMEMSG(ChoseCard_S2C)
+{
+	int playerid;
+	int cardconst;
+	int *cardlist;
+};
+
+GAMEMSG(NextRound_S2C)
+{
+	int playerid;
+	int roundid;
+};
+
+GAMEMSG(UsingHandCard_S2C)
+{
+	int playerid;
+	// TODO : 
+};
+
+#pragma endregion
 #endif

@@ -48,5 +48,4 @@ void MsgManager::GetHandCard(Game_GetHandCard_S2C *msg)
 	auto player = PlayerList::getSingleton().getPlayerFromID(msg->playerid);
 	if (!player)
 		return;
-	player->pushHandCard(msg->handcardid);
 }

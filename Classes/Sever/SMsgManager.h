@@ -11,7 +11,7 @@ public:
 	void sendMessage(BaseMsg *msg, int size);
 	void recvMessgae(BaseMsg *msg, int size);
 private:
-	void GetHandCard(Game_GetHandCard_C2S *msg);
+	void ChoseCard(Game_ChoseCard_C2S *msg);
 };
 
 #endif // !SMSGMANAGER_H_

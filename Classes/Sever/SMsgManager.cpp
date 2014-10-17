@@ -29,8 +29,8 @@ void SMsgManager::recvMessgae(BaseMsg *msg, int size)
 	case MsgType::game:
 		switch (msg->msgname)
 		{
-		case GameMsg_C2S::GetHandCard_C2S:
-			GetHandCard((Game_GetHandCard_C2S*)msg);
+		case GameMsg_C2S::ChoseCard_C2S:
+			ChoseCard((Game_ChoseCard_C2S*)msg);
 			break;
 		default:
 			break;
@@ -41,7 +41,11 @@ void SMsgManager::recvMessgae(BaseMsg *msg, int size)
 	}
 }
 
-void SMsgManager::GetHandCard(Game_GetHandCard_C2S *msg)
+void SMsgManager::ChoseCard(Game_ChoseCard_C2S *msg)
 {
-
+	auto sendmsg = new Game_ChoseCard_S2C;
+	sendmsg->msgname = GameMsg_S2C::GetHandCard_S2C;
+	sendmsg->playerid = msg->playerid;
+	sendmsg->cardconst = 4;
+	sendmsg->cardlist;// TODO : 
 }
